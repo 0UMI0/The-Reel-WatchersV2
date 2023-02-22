@@ -1,0 +1,51 @@
+header{ 
+    background-color: #ffd966;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+body{
+
+    background-color: #6a329f;
+    color: #ffd966;
+    font-size: medium;
+   
+
+}
+
+
+main{
+    background-color: #ffd966;
+    border-radius: 10px;
+
+}
+footer{
+    
+    border-radius: 10px;
+    background-color: #8e7cc3;
+    font-style: oblique;
+    
+}
+aside{
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+
+
+/* header and stuff */
+h1, h2, h3, h4, h5, h6, p{
+    color: #000000;
+    font-family: Arial;
+}
+
+h1{
+    font-size:xx-large;
+}
+h3{
+    font-size: x-large;
+}
+
+form{
+    color: #000000;
+}
