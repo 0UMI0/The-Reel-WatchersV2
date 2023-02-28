@@ -2,20 +2,10 @@ header{
     background-color: #ffd966;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    padding: 10px;
-}
-header nav img{
-   height: 60px;
-   width: 60px;
-   float: left;
-   margin-right: 10px;
-}
-#title{
-    display: inline;
-}
-
-body{
     
+    
+}
+body{
 
     background-color: #6a329f;
     color: #ffd966;
@@ -27,7 +17,7 @@ body{
 
 main{
     background-color: #8e7cc3;
-    border-bottom: 10px;
+    border-radius: 10px;
 
 }
 footer{
@@ -69,22 +59,13 @@ table th{
 
 }
 
-nav ul{
-    margin: 0px;
-    padding: 0px;
-    overflow: hidden;
-}
-
 
 nav li{
     border: 2px, solid;
     accent-color: 2px, solid;
     border-radius: 5px;
     background-color: #6a329f;
-    list-style-type: none;
-    float: left;
-    width: 15%;
-    padding: 16px;
+    list-style-type: ">";
     
 }
 
@@ -105,10 +86,7 @@ nav li:hover{
     
 }
 
-.cinema{
-    padding: 10px;
-    height: 150px;
-}
+
 
 h1, h2, h3, h4, h5, h6, p{
     color: #000000;
@@ -124,5 +102,11 @@ h3{
 
 form{
     color: #000000;
+}
 
+
+.cinema{
+    padding: 10px;
+    height: 150px;
+    align-self: auto;
 }
