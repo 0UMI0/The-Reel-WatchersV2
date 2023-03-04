@@ -3,14 +3,17 @@
 <head>
     <title> The Reel Reviewers</title>
     <link rel='stylesheet' href='css/main.css'> 
-    <!-- <link rel='stylesheet' href='css/experimenting.css'> -->
-</head>
-
-<body>
+    <!-- <link rel='stylesheet' href='css/experimenting.css'> -->    
+    
+    
     <header>
         <nav> <img src="images/clapboardlogo.png" alt="clapboardlogo"></nav>
         <h1 id="title"> The Reel Reviewers</h1> 
     </header>
+
+</head>
+
+<body>
 
 
 
@@ -27,27 +30,31 @@
     </nav>
         
         <form>
-            
+            <h3>Contact us</h3>
+            <p>Use the form below or contact on social media</p>
             <fieldset>
-                <h3>Contact us</h3>
+                
                 
                 <!-- name entry box-->
                 <label for="name"> Name</label>
                 <input type="text" id="name" value=""> <br> 
                 <!-- Email entry box-->
                 <label for="email">Email Address</label>
-                <input type="text" id="email" value=""> <br>
+                <input type="text" id="email" value=""> 
+                <br>
                 <!-- Member buttons-->
-                <label for="memberStatus">Membership Status:</label>
+                <label for="MemberStatus">Membership Status:</label>
                 
                 <label for="member">Member</label>
-                <input type="checkbox" id ="Member" value="" > 
+                <input type="radio" id ="IsMember" name="MemberCheck"value="" > 
 
-                <label for="non-member"> Not a member</label>
-                <input type="checkbox" id = nonMember  value="" >  <br>
+                <label for="member"> Not a member</label>
+                <input type="radio" id = Notmember name="MemberCheck" value="" >  
+                <br>
 
                 <!--Why are you contacting box-->
-                <label for="contact  reason"> Reason for contacting</label>
+                
+                <label for="contact  reason"> Comments</label>
                 <input type="text" id = contact   value=""> <br>
 
                 <!-- Relevant file attachment-->

@@ -1,5 +1,5 @@
 header{ 
-    background-color: #ffd966;
+    background-color: #379683;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     
@@ -7,8 +7,8 @@ header{
 }
 body{
 
-    background-color: #6a329f;
-    color: #ffd966;
+    background-color: #5CDB95;
+    color: #379683;
     font-size: medium;
    
 
@@ -16,19 +16,19 @@ body{
 
 
 main{
-    background-color: #8e7cc3;
+    background-color: #379683;
     border-radius: 10px;
 
 }
 footer{
     
     border-radius: 10px;
-    background-color: #8e7cc3;
+    background-color: #379683;
     font-style: oblique;
     
 }
 aside{
-    background-color: #ffffff;
+    background-color: #05386B;
     border-radius: 10px;
 }
 
@@ -49,12 +49,12 @@ Table tr:nth-child(even){
 }
 
 table tr:hover{
-    background-color: #6a329f;
+    background-color: #5CDB95;
 }
 
 
 table th{
-    background-color: #8e7cc3;
+    background-color: #379683;
     color: white;
 
 }
@@ -64,14 +64,14 @@ nav li{
     border: 2px, solid;
     accent-color: 2px, solid;
     border-radius: 5px;
-    background-color: #6a329f;
+    background-color: #5CDB95;
     list-style-type: ">";
     
 }
 
 nav li a{
     border: 2px, solid;
-    color: #ffffff;
+    color: #05386B;
     text-align: center;
     text-decoration: none;
 
@@ -82,7 +82,7 @@ nav li:hover{
 }
 
 .active{
-    background-color: #ffd966;
+    background-color: #379683;
     
 }
 
