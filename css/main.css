@@ -17,7 +17,6 @@ header nav img{
 }
 
 body{
-    
 
     background-color: #5CDB95;
     color: #379683;
@@ -56,33 +55,46 @@ h3{
     font-size: x-large;
 }
 
-table{
+table td,table th,table tr{
     font-family: Arial;
-    color:#000000;
-    border-collapse: collapse;
-}
-table td,table th{
-    border: 2px, solid,  #F0F0F0;
-
+    border-collapse: collapse;  
+    border: 1px solid black;
 
 }
+th,td,tr{
+    padding: 10px;
+    border: 2px, solid;
+    border-radius: 2px;
+}
 
-Table tr:nth-child(even){
+
+Table tr,table td:nth-child(even){
     background-color: #F2F2F2;
 }
 
-table tr, table th:hover{
-    background-color: #5CDB95;
+table th:hover{
+    background-color:  #379683;
 }
 
+table tr:hover{
+    background-color: #000000;
+    color: #F2F2F2;
+  }
+table, th, td {
+    border: 1px solid black;
+  }
+  
 
-table th{
-    background-color: #379683;
-    color: white;
+table th, table tr{
+    background-color: #05386B;
+    color: #F2F2F2;
+    border: 2px, solid;
 
 }
+
 
 nav ul{
+    list-style-type: none;
     margin: 0px;
     padding: 0px;
     overflow: hidden;
@@ -92,23 +104,24 @@ nav ul{
 
 
 nav li{
-    border: 2px, solid;
+    border: 2px, ;
     accent-color: 2px, solid;
-    border-radius: 4px;
     background-color: #5CDB95;
     list-style-type: none;
+    width: 20%;
+    padding: 0px;
     float: left;
-    width: 15%;
-    padding: 20px;
     
     
 }
 
 nav li a{
-    border: 2px, solid;
+    display: block;
     color: #05386B;
-    text-align: center;
+    padding: 10px 10px;
     text-decoration: none;
+    text-align: center;
+    font-size: large;
     
 
 }
@@ -117,14 +130,11 @@ nav li:hover{
 
 }
 
+
+
 .active{
     background-color: #379683;
     
-}
-
-.cinema{
-    padding: 10px;
-    height: 150px;
 }
 
 
@@ -136,6 +146,10 @@ form{
 
 }
 
+input{
+    margin: 2px;
+}
+
 
 fieldset{
     border-radius: 2px;
@@ -145,5 +159,18 @@ fieldset{
     padding: 15px;
     display:inline;
     
+}
+
+
+div .cGallery{
+
+    margin: 5px;
+    border: 1px solid #05386B;
+    width: 200px;
+    
+}
+
+div .cGallery:hover {
+    border: 1px solid #379683;
 }
 
