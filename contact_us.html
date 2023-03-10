@@ -29,7 +29,7 @@
         </ul>
     </nav>
         
-        <form>
+        <form class="ContactUs">
             <h3>Contact us</h3>
             <p>Use the form below or contact on social media</p>
             <fieldset>
@@ -46,16 +46,17 @@
                 <label for="MemberStatus">Membership Status:</label>
                 
                 <label for="member">Member</label>
-                <input type="radio" id ="IsMember" name="MemberCheck"value="" > 
+                <input type="radio" id ="member" name="MemberCheck"value="" > 
 
                 <label for="member"> Not a member</label>
-                <input type="radio" id = Notmember name="MemberCheck" value="" >  
+                <input type="radio" id = member name="MemberCheck" value="" >  
                 <br>
 
                 <!--Why are you contacting box-->
                 
-                <label for="contact  reason"> Comments</label>
-                <input type="text" id = contact   value=""> <br>
+                <label for="comments"> Comments</label>
+                <textarea id ="comments"></textarea>
+                <br>
 
                 <!-- Relevant file attachment-->
                 <label for="file">Attach file</label>

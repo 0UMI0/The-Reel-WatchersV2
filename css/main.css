@@ -157,10 +157,13 @@ fieldset{
     border-color: #05386B;
     border-width: 2px;
     padding: 15px;
-    display:inline;
+
     
 }
 
+.ContactUs{
+    max-width: 500px;
+}
 
 div .cGallery{
 
