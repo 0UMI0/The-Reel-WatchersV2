@@ -1,11 +1,13 @@
+Hex	RGB
+#000000	(0,0,0)
+#6a329f	(106,50,159)
+#8e7cc3	(142,124,195)
+#ffd966	(255,217,102)
+#d8d7d7	(216,215,215)
+https://www.color-hex.com/color-palette/1022618
 
-
-New Colour scheme:
-
-
-
-Main text colour and selection colour : #EDF5E1
-Secondary Text colour and reading backgroudn colour: #05386B
-Background colour : #5CDB95
-Accent and interactive feature colour: #379683
-Main colour: #379683
+o Main Text Colour and Selection Colour: Black (#00000)
+o Secondary Text and Reading Background Colour: White (#FFFFFF)
+o Background Colour: Purple (#6a329f)
+o Accent and Interactive Feature Colour: Light yellow (#ffd966)
+o Main Colour: Light purple (#8e7cc3)

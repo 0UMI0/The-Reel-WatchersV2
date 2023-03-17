@@ -1,5 +1,5 @@
 header{ 
-    background-color: #379683;
+    background-color: #ffd966;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     
@@ -7,8 +7,8 @@ header{
 }
 body{
 
-    background-color: #5CDB95;
-    color: #379683;
+    background-color: #6a329f;
+    color: #ffd966;
     font-size: medium;
    
 
@@ -16,19 +16,19 @@ body{
 
 
 main{
-    background-color: #379683;
+    background-color: #8e7cc3;
     border-radius: 10px;
 
 }
 footer{
     
     border-radius: 10px;
-    background-color: #379683;
+    background-color: #8e7cc3;
     font-style: oblique;
     
 }
 aside{
-    background-color: #05386B;
+    background-color: #ffffff;
     border-radius: 10px;
 }
 
@@ -49,12 +49,12 @@ Table tr:nth-child(even){
 }
 
 table tr:hover{
-    background-color: #5CDB95;
+    background-color: #6a329f;
 }
 
 
 table th{
-    background-color: #379683;
+    background-color: #8e7cc3;
     color: white;
 
 }
@@ -64,14 +64,14 @@ nav li{
     border: 2px, solid;
     accent-color: 2px, solid;
     border-radius: 5px;
-    background-color: #5CDB95;
+    background-color: #6a329f;
     list-style-type: ">";
     
 }
 
 nav li a{
     border: 2px, solid;
-    color: #05386B;
+    color: #ffffff;
     text-align: center;
     text-decoration: none;
 
@@ -82,7 +82,7 @@ nav li:hover{
 }
 
 .active{
-    background-color: #379683;
+    background-color: #ffd966;
     
 }
 

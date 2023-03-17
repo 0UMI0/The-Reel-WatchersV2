@@ -1,244 +1,128 @@
-header {
-    background-color: #379683;
+header{ 
+    background-color: #ffd966;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     padding: 10px;
 }
-
-header  img {
-    height: 45px;
-    width: 60px;
-    float: left;
-    margin-left: 10;
-
+header nav img{
+   height: 60px;
+   width: 60px;
+   float: left;
+   margin-right: 10px;
 }
-
-#title {
+#title{
     display: inline;
 }
 
-body {
+body{
+    
 
-    background-color: #5CDB95;
-    color: #379683;
+    background-color: #6a329f;
+    color: #ffd966;
     font-size: medium;
-
+   
 
 }
 
 
-main {
-    background-color: #379683;
+main{
+    background-color: #8e7cc3;
     border-bottom: 10px;
-    padding: 10px;
 
 }
-
-
-footer {
-
+footer{
+    
     border-radius: 10px;
-    background-color: #379683;
+    background-color: #8e7cc3;
     font-style: oblique;
-
+    
 }
-
-aside {
-    margin-top: 10px;
-    background-color: #05386B;
+aside{
+    background-color: #ffffff;
     border-radius: 10px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    color: #EDF5E1;
+
+table{
     font-family: Arial;
-}
-
-h1 {
-    font-size: xx-large;
-}
-
-h3 {
-    font-size: x-large;
-}
-
-/*table elements */
-table td,
-table th,
-table tr {
-    font-family: Arial;
+    color:#000000;
     border-collapse: collapse;
-    border: 1px solid black;
+}
+table td,table th{
+    border: 2px, solid,  #F0F0F0;
+
 
 }
 
-th,
-td,
-tr {
-    padding: 10px;
-    border: 2px, solid;
-    border-radius: 2px;
-}
-
-
-Table tr,
-table td:nth-child(even) {
+Table tr:nth-child(even){
     background-color: #F2F2F2;
 }
 
-table th:hover {
-    background-color: #379683;
-}
-
-table tr:hover {
-    background-color: #000000;
-    color: #F2F2F2;
-}
-
-table,
-th,
-td {
-    border: 1px solid black;
+table tr:hover{
+    background-color: #6a329f;
 }
 
 
-table th,
-table tr {
-    background-color: #05386B;
-    color: #F2F2F2;
-    border: 2px, solid;
+table th{
+    background-color: #8e7cc3;
+    color: white;
 
 }
 
-/* Nav elements */
-nav ul {
-    list-style-type: none;
+nav ul{
     margin: 0px;
     padding: 0px;
     overflow: hidden;
-    background-color: #5CDB95;
-
 }
 
 
-nav li {
-    border: 2px, ;
+nav li{
+    border: 2px, solid;
     accent-color: 2px, solid;
-    background-color: #5CDB95;
+    border-radius: 5px;
+    background-color: #6a329f;
     list-style-type: none;
-    width: 20%;
-    padding: 0px;
     float: left;
-
-
-}
-
-nav li a {
-    display: block;
-    color: #05386B;
-    padding: 10px 10px;
-    text-decoration: none;
-    text-align: center;
-    font-size: large;
-
-
-}
-
-nav li:hover {
-    background-color: #379683;
-
-}
-
-
-
-.active {
-    background-color: #379683;
-
-}
-
-
-/*form elements */
-form {
-    font-family: Arial;
-    color: #05386B;
-    padding: 15px;
-
-}
-
-input {
-    margin: 2px;
-}
-
-
-fieldset {
-    border-radius: 2px;
-    border-style: solid;
-    border-color: #05386B;
-    border-width: 2px;
-    padding: 15px;
-
-
-}
-
-.ContactUs {
-    max-width: 500px;
-}
-
-
-div .cGallery {
-
-    margin: 5px;
-    border: 1px solid #05386B;
-    width: 200px;
-
-}
-
-div .cGallery:hover {
-    border: 1px solid #379683;
-}
-
-/* Carousel things*/
-#home-carousel {
-    height: 500px;
-    width: 700px;
+    width: 15%;
+    padding: 16px;
     
 }
 
-#home-carousel .carousel-item{
-    height:100%;
+nav li a{
+    border: 2px, solid;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+
+}
+nav li:hover{
+    background-color: #000000;
+
 }
 
-#home-carousel .carousel-item img {
-    height: 100%;
+.active{
+    background-color: #ffd966;
+    
 }
 
-#img-gallery {
-    padding-top: 10px;
+.cinema{
+    padding: 10px;
+    height: 150px;
 }
 
-#img-gallery .row {
-    margin-bottom: 10px;
-} 
-
-
-/* img gallery elements */
-
-.gallery-img{
-    width: 100%;
+h1, h2, h3, h4, h5, h6, p{
+    color: #000000;
+    font-family: Arial;
 }
 
-#img-gallery{
-    padding-top: 10px;
+h1{
+    font-size:xx-large;
+}
+h3{
+    font-size: x-large;
 }
 
-#img-gallery{
-    margin-bottom: 10px;
+form{
+    color: #000000;
+
 }
-
-
