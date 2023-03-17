@@ -1,128 +1,253 @@
-header{ 
-    background-color: #ffd966;
+header {
+    background-color: #379683;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     padding: 10px;
 }
-header nav img{
-   height: 60px;
-   width: 60px;
-   float: left;
-   margin-right: 10px;
+
+header  img {
+    height: 45px;
+    width: 60px;
+    float: left;
+    margin-left: 10;
+
 }
-#title{
+
+#title {
     display: inline;
 }
 
-body{
-    
+body {
 
-    background-color: #6a329f;
-    color: #ffd966;
+    background-color: #5CDB95;
+    color: #379683;
     font-size: medium;
-   
+
 
 }
 
 
-main{
-    background-color: #8e7cc3;
+main {
+    background-color: #379683;
     border-bottom: 10px;
-
-}
-footer{
-    
-    border-radius: 10px;
-    background-color: #8e7cc3;
-    font-style: oblique;
-    
-}
-aside{
-    background-color: #ffffff;
-    border-radius: 10px;
-}
-
-
-table{
-    font-family: Arial;
-    color:#000000;
-    border-collapse: collapse;
-}
-table td,table th{
-    border: 2px, solid,  #F0F0F0;
-
-
-}
-
-Table tr:nth-child(even){
-    background-color: #F2F2F2;
-}
-
-table tr:hover{
-    background-color: #6a329f;
-}
-
-
-table th{
-    background-color: #8e7cc3;
-    color: white;
-
-}
-
-nav ul{
-    margin: 0px;
-    padding: 0px;
-    overflow: hidden;
-}
-
-
-nav li{
-    border: 2px, solid;
-    accent-color: 2px, solid;
-    border-radius: 5px;
-    background-color: #6a329f;
-    list-style-type: none;
-    float: left;
-    width: 15%;
-    padding: 16px;
-    
-}
-
-nav li a{
-    border: 2px, solid;
-    color: #ffffff;
-    text-align: center;
-    text-decoration: none;
-
-}
-nav li:hover{
-    background-color: #000000;
-
-}
-
-.active{
-    background-color: #ffd966;
-    
-}
-
-.cinema{
     padding: 10px;
-    height: 150px;
+
 }
 
-h1, h2, h3, h4, h5, h6, p{
-    color: #000000;
+
+footer {
+
+    border-radius: 10px;
+    background-color: #379683;
+    font-style: oblique;
+
+}
+
+aside {
+    margin-top: 10px;
+    background-color: #05386B;
+    border-radius: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    color: #EDF5E1;
     font-family: Arial;
 }
 
-h1{
-    font-size:xx-large;
+h1 {
+    font-size: xx-large;
 }
-h3{
+
+h3 {
     font-size: x-large;
 }
 
-form{
-    color: #000000;
+/*table elements */
+table td,
+table th,
+table tr {
+    font-family: Arial;
+    border-collapse: collapse;
+    border: 1px solid black;
+
+}
+
+th,
+td,
+tr {
+    padding: 10px;
+    border: 2px, solid;
+    border-radius: 2px;
+}
+
+
+Table tr,
+table td:nth-child(even) {
+    background-color: #F2F2F2;
+}
+
+table th:hover {
+    background-color: #379683;
+}
+
+table tr:hover {
+    background-color: #000000;
+    color: #F2F2F2;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+
+table th,
+table tr {
+    background-color: #05386B;
+    color: #F2F2F2;
+    border: 2px, solid;
+
+}
+
+/* Nav elements */
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #5CDB95;
+
+}
+
+
+nav li {
+    border: 2px, ;
+    accent-color: 2px, solid;
+    background-color: #5CDB95;
+    list-style-type: none;
+    width: 20%;
+    padding: 0px;
+    float: left;
+
+
+}
+
+nav li a {
+    display: block;
+    color: #05386B;
+    padding: 10px 10px;
+    text-decoration: none;
+    text-align: center;
+    font-size: large;
+
+
+}
+
+nav li:hover {
+    background-color: #379683;
+
+}
+
+
+
+.active {
+    background-color: #379683;
+
+}
+
+
+/*form elements */
+form {
+    font-family: Arial;
+    color: #05386B;
+    padding: 15px;
+
+}
+
+input {
+    margin: 2px;
+}
+
+
+fieldset {
+    border-radius: 2px;
+    border-style: solid;
+    border-color: #05386B;
+    border-width: 2px;
+    padding: 15px;
+
+
+}
+
+.ContactUs {
+    max-width: 500px;
+}
+.logIN{
+    max-width: 350px;
+    
+}
+
+div .cGallery {
+
+    margin: 5px;
+    border: 1px solid #05386B;
+    width: 200px;
+
+}
+
+div .cGallery:hover {
+    border: 1px solid #379683;
+}
+
+/* Carousel things*/
+#home-carousel {
+    height: 1000px;
+    width: 1500px;
+    display: inline;
+    
+}
+
+#home-carousel .carousel-item{
+    height:100%;
+}
+
+#home-carousel .carousel-item img {
+    height: 100%;
+}
+
+#img-gallery {
+    padding-top: 10px;
+}
+
+#img-gallery .row {
+    margin-bottom: 10px;
+} 
+
+
+/* img gallery elements */
+
+.gallery-img{
+    width: 100%;
+}
+
+#img-gallery{
+    padding-top: 10px;
+}
+
+#img-gallery{
+    margin-bottom: 10px;
+}
+
+
+#right-col{
+    display: inline-flex;
+    
 
 }

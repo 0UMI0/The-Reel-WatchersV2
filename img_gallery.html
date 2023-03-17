@@ -1,49 +1,94 @@
 <html>
 
+
 <head>
     <title> The Reel Reviewers</title>
-    <link rel='stylesheet' href='css/main.css'> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <link rel='stylesheet' href='css/main.css'>
     <!-- <link rel='stylesheet' href='css/experimenting.css'> -->
+
+
+
 </head>
+<header>
+    <nav>
+        <img src="images/clapboardlogo.png" alt="clapboardlogo">
+    </nav>
+    <h1 id="title"> The Reel Reviewers</h1>
+</header>
+<nav>
+    <ul>
+        <li><a href='index.html'>Home Page</a></li>
+        <li><a href='current_members.html'>Current Members</a></li>
+        <li><a href='event_calendar.html'>Event Calander</a></li>
+        <li class="active"><a href='img_gallery.html'>Image Gallery</a></li>
+        <li><a href='contact_us.html'>Contact Us</a></li>
+    </ul>
+</nav>
 
 <body>
-    <header>
-        <nav> <img src="images/clapboardlogo.png" alt="clapboardlogo"></nav>
-        <h1 id="title"> The Reel Reviewers</h1> 
-    </header>
 
 
 
-<main>
-    <nav>
-        <ul>
-            <li ><a href='index.html'>Home Page</a></li>
-            <li><a href='current_members.html'>Current Members</a></li>
-            <li ><a href='event_calendar.html'>Event Calander</a></li>
-            <li  class="active"><a href='img_gallery.html'>Image Gallery</a></li>
-            <li ><a href='contact_us.html'>Contact Us</a></li>
-        </ul>
-    </nav>
-        
-        <div>
-            <img src="images/20thcenturyfoxlogo.jpg" alt="foxlogo" class="cinema"/>
+
+    <main>
+
+        <!-- Grid images -->
+        <div id="img-gallery" class="container">
+            <div class="row"> <!-- Row one-->
+                <div class="col-sm">
+                    <img src="images/popcorntub.jpg" id="gallery-img1" class="gallery-img" alt="popcorntub">
+                </div>
+                <div class="col-sm">
+                    <img src="images/20thcenturyfoxlogo.jpg" id="gallery-img2" class="gallery-img"
+                        alt="20thcenturyfoxlogo">
+                </div>
+                <div class="col-sm">
+                    <img src="images/emptycinemaroomblack.jpg" id="gallery-img3" class="gallery-img" alt="bwCinema">
+                </div>
+            </div>
+            <div class="row"> <!--row two-->
+                <div class="col-sm">
+                    <img src="images/cinema-drink.jpg" id="gallery-img4" class="gallery-img" alt="cinema-drink">
+                </div>
+                <div class="col-sm">
+                    <img src="images/cinemapopcorn.jpg" id="gallery-img5" class="gallery-img" alt="cinemaroompopcorn">
+                </div>
+                <div class="col-sm">
+                    <img src="images/popcornanddrink.jpg" id="gallery-img6" class="gallery-img" alt="popcornanddrink">
+
+                </div>
+            </div>
+            <div class="row"> <!-- row three-->
+                <div class="col-sm">
+                    <img src="images/persongivingpopcorn.jpg" id="gallery-img7" class="gallery-img"
+                        alt="persongivingpopcorn">
+                </div>
+                <div class="col-sm">
+                    <img src="images/TwoIceCream.jpg" id="gallery-img8" class="gallery-img" alt="TwoIceCream">
+                </div>
+
+                <div class="col-sm">
+                    <img src="images/BrIcecream.jpg" id="gallery-img9" class="gallery-img" alt="BrIcecream">
+                </div>
+
+
+            </div>
         </div>
 
-        <div>
-            <img src="images/cinemapopcorn.jpg" alt="cinemapopcorn" class="cinema"/>
-        </div>
-        <div>
-            
-            <img src="images/emptycinemaroomblack.jpg" alt="blackcinema" class="cinema"/>
-            
-        </div>
+
 
     </main>
 
-    
+
+
 
     <aside>
-        <h3> Latest Tweets</h3>
+        
     </aside>
 
 
@@ -57,7 +102,70 @@
 
 
 
+    <script>
+        //img 1
+        document.getElementById
+            ("gallery-img1").addEventListener("mouseover", highlight);
+        document.getElementById
+            ("gallery-img1").addEventListener("mouseout", delight);
 
+        function highlight() {
+            document.getElementById("gallery-img1").style = "border: solid blue 2px;"
+        }
+        function delight() {
+            document.getElementById("gallery-img1").style = "border:none;"
+        }
+
+        //img 2
+        document.getElementById
+            ("gallery-img2").addEventListener("mouseover", highlight2);
+        document.getElementById
+            ("gallery-img2").addEventListener("mouseout", delight2);
+
+        function highlight2() {
+            document.getElementById("gallery-img2").style = "border: solid blue 2px;"
+        }
+        function delight2() {
+            document.getElementById("gallery-img2").style = "border:none;"
+        }
+        //img 3
+        document.getElementById
+            ("gallery-img3").addEventListener("mouseover", highlight3);
+        document.getElementById
+            ("gallery-img3").addEventListener("mouseout", delight3);
+
+        function highlight3() {
+            document.getElementById("gallery-img3").style = "border: solid blue 2px;"
+        }
+        function delight3() {
+            document.getElementById("gallery-img3").style = "border:none;"
+        }
+        //img 4
+        document.getElementById
+            ("gallery-img4").addEventListener("mouseover", highlight4);
+        document.getElementById
+            ("gallery-img4").addEventListener("mouseout", delight4);
+
+        function highlight4() {
+            document.getElementById("gallery-img4").style = "border: solid blue 2px;"
+        }
+        function delight4() {
+            document.getElementById("gallery-img4").style = "border:none;"
+        }
+        //img 5
+        document.getElementById
+            ("gallery-img5").addEventListener("mouseover", highlight5);
+        document.getElementById
+            ("gallery-img5").addEventListener("mouseout", delight5);
+
+        function highlight5() {
+            document.getElementById("gallery-img5").style = "border: solid blue 2px;"
+        }
+        function delight5() {
+            document.getElementById("gallery-img5").style = "border:none;"
+        }
+        //do the rest later
+    </script>
 
 </body>
 
