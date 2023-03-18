@@ -5,7 +5,7 @@ header {
     padding: 10px;
 }
 
-header  img {
+header img {
     height: 45px;
     width: 60px;
     float: left;
@@ -66,7 +66,8 @@ h1 {
 
 h3 {
     font-size: x-large;
-}
+} 
+
 
 /*table elements */
 table td,
@@ -189,9 +190,10 @@ fieldset {
 .ContactUs {
     max-width: 500px;
 }
-.logIN{
+
+.logIN {
     max-width: 350px;
-    
+
 }
 
 div .cGallery {
@@ -211,11 +213,11 @@ div .cGallery:hover {
     height: 1000px;
     width: 1500px;
     display: inline;
-    
+
 }
 
-#home-carousel .carousel-item{
-    height:100%;
+#home-carousel .carousel-item {
+    height: 100%;
 }
 
 #home-carousel .carousel-item img {
@@ -228,26 +230,53 @@ div .cGallery:hover {
 
 #img-gallery .row {
     margin-bottom: 10px;
-} 
+}
 
 
 /* img gallery elements */
 
-.gallery-img{
+.gallery-img {
     width: 100%;
 }
 
-#img-gallery{
+#img-gallery {
     padding-top: 10px;
 }
 
-#img-gallery{
+#img-gallery {
     margin-bottom: 10px;
 }
 
 
-#right-col{
+
+
+/* Current members gallery*/
+
+.CMgallery-img {
+    width: 100%;
+}
+
+#CMimg-gallery {
+    padding-top: 10px;
+}
+
+#CMimg-gallery {
+    margin-bottom: 10px;
+}
+
+.cmGallery-Head,
+.cmGallery-Bottom {
+    text-align: center;
+
+}
+
+/*Contact us twitter element */
+
+
+#right-col {
     display: inline-flex;
+    /*float: left;*/
+    margin: 10px;
     
 
 }
