@@ -1,112 +1,269 @@
-header{ 
+/* Header styling */
+header {
     background-color: #379683;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    
-    
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+    padding: 10px;
+    overflow: auto;
 }
-body{
 
+header img {
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-left: 1px;
+    overflow: auto;
+   
+}
+
+#title {
+    display: inline;
+}
+/* Body styling */
+body {
     background-color: #5CDB95;
     color: #379683;
     font-size: medium;
-   
-
 }
 
-
-main{
+/* Main section styling */
+main {
     background-color: #379683;
-    border-radius: 10px;
-
+    border-bottom: 10px solid;
+    padding: 10px;
+    min-height: 100vh;
+    overflow: auto;
 }
-footer{
-    
+
+/* Footer styling */
+footer {
     border-radius: 10px;
     background-color: #379683;
     font-style: oblique;
-    
+    padding: 10px;
+    margin-top: 20px;
 }
-aside{
+
+/* Aside section styling */
+aside {
+    margin-top: 10px;
     background-color: #05386B;
     border-radius: 10px;
+    overflow: auto;
 }
 
-
-table{
-    font-family: Arial;
-    color:#000000;
-    border-collapse: collapse;
-}
-table td,table th{
-    border: 2px, solid,  #F0F0F0;
-
-
-}
-
-Table tr:nth-child(even){
-    background-color: #F2F2F2;
-}
-
-table tr:hover{
-    background-color: #5CDB95;
-}
-
-
-table th{
-    background-color: #379683;
-    color: white;
-
-}
-
-
-nav li{
-    border: 2px, solid;
-    accent-color: 2px, solid;
-    border-radius: 5px;
-    background-color: #5CDB95;
-    list-style-type: ">";
-    
-}
-
-nav li a{
-    border: 2px, solid;
-    color: #05386B;
-    text-align: center;
-    text-decoration: none;
-
-}
-nav li:hover{
-    background-color: #000000;
-
-}
-
-.active{
-    background-color: #379683;
-    
-}
-
-
-
-h1, h2, h3, h4, h5, h6, p{
-    color: #000000;
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    color: #EDF5E1;
     font-family: Arial;
 }
 
-h1{
-    font-size:xx-large;
+h1 {
+    font-size: xx-large;
 }
-h3{
+
+h3 {
     font-size: x-large;
 }
 
-form{
-    color: #000000;
+/* Table styling */
+table td,
+table th,
+table tr {
+    font-family: Arial;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+th,
+td,
+tr {
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 2px;
+}
+
+Table tr,
+table td:nth-child(even) {
+    background-color: #F2F2F2;
+}
+
+table th:hover {
+    background-color: #379683;
+}
+
+table tr:hover {
+    background-color: #000000;
+    color: #F2F2F2;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+table th,
+table tr {
+    background-color: #05386B;
+    color: #F2F2F2;
+    border: 2px solid;
 }
 
 
-.cinema{
+/* Nav elements */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5CDB95;
+}
+
+nav li {
+    border: 2px solid;
+    border-color: #05386B;
+    background-color: #5CDB95;
+    list-style-type: none;
+    width: 20%;
+    padding: 0;
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: #05386B;
     padding: 10px;
-    height: 150px;
-    align-self: auto;
+    text-decoration: none;
+    text-align: center;
+    font-size: large;
+}
+
+nav li:hover,
+.active {
+    background-color: #379683;
+}
+
+
+
+/* Contact us form elements */
+
+
+.ContactUs {
+    font-family: Arial;
+    color: #EDF5E1;
+    padding: 15px;
+    float: left;
+}
+
+.ContactUs input {
+    margin: 1px;
+    width: auto;
+    height: auto;
+
+}
+
+
+.contactUsField {
+    border-radius: 2px;
+    border-style: solid;
+    border-color: #05386B;
+    border-width: 2px;
+    padding: 15px;
+}
+
+
+
+
+/* Login Element */
+.LogIn {
+    
+    float: right;
+    background-color: #379683;
+    color: white;
+    padding: 1px 1px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 0px;
+    border: none;
+    cursor: pointer;
+    
+    
+}
+
+
+
+
+
+/* Carousel things */
+#home-carousel {
+    height: 1000px;
+    width: 1500px;
+    display: inline;
+}
+
+#home-carousel .carousel-item {
+    height: 100%;
+}
+
+#home-carousel .carousel-item img {
+    height: 100%;
+}
+
+#img-gallery {
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+div.cGallery {
+    margin: 5px;
+    border: 1px solid #05386B;
+    width: 200px;
+}
+
+div.cGallery:hover {
+    border: 1px solid #379683;
+}
+
+/* img gallery elements */
+.gallery-img {
+    height: 350px;
+    width: 350px;
+    margin: 10px;
+}
+
+.gallery-img-bottom{
+    text-align: center;
+}
+
+/* Current members gallery */
+.CMgallery-img {
+    width: 100%;
+}
+
+#CMimg-gallery {
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cmGallery-Head,
+.cmGallery-Bottom {
+    text-align: center;
+}
+
+
+
+
+/* Contact us twitter embed */
+.twitter-tweet {
+    margin: 15px;
+    float: right;
+    overflow: auto;
+
 }

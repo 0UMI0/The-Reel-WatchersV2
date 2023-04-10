@@ -5,7 +5,7 @@ New Colour scheme:
 
 
 Main text colour and selection colour : #EDF5E1
-Secondary Text colour and reading backgroudn colour: #05386B
+Secondary Text colour and reading background colour: #05386B
 Background colour : #5CDB95
 Accent and interactive feature colour: #379683
 Main colour: #379683

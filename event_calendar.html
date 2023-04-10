@@ -1,16 +1,17 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 
 <head>
+    <meta charset="UTF-8">
     <title> The Reel Reviewers</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
-    <link rel='stylesheet' href='css/main.css'>
     <!-- <link rel='stylesheet' href='css/experimenting.css'> -->
-
+    <link rel='stylesheet' href='css/main.css'>
 
 
 
@@ -18,25 +19,67 @@
 
 <body>
     <header>
-        <img src="images/clapboardlogo.png" alt="clapboardlogo">
+        <img src="images/playLogo.png" alt="logo">
         <h1 id="title"> The Reel Reviewers</h1>
+
+        <img src="images/playLogo.png" alt="Logo">
+
+
+        <form class="LogIn">
+
+            <p id="login"></p>
+            <fieldset id="loginFields">
+                <!--Username-->
+                <input type="text" id="user-email" placeholder="email">
+                <!--Password-->
+
+                <input type="password" id="password" placeholder="password">
+                <!--submit button-->
+                <button type="button" onclick="alert('You have been logged in')">Login</button>
+
+                <script>
+                    var counter = 2;
+
+                    function login() {
+                        if (counter % 2 == 0) {
+                            alert('You have been logged in');
+
+                        }
+                        else {
+                            alert('you have been logged out')
+                        }
+                        counter += 1;
+                    }
+
+
+
+                </script>
+
+
+
+            </fieldset>
+
+        </form>
+        <p id="login_confirm"></p>
     </header>
 
 
     <nav>
-        <ul>            <!--Nav bar -->
-            <li><a href='index.html'>Home Page</a></li>
-            <li><a href='current_members.html'>Current Members</a></li>
-            <li class="active"><a href='event_calendar.html'>Event Calander</a></li>
-            <li><a href='img_gallery.html'>Image Gallery</a></li>
-            <li><a href='contact_us.html'>Contact Us</a></li>
-
+        <ul> <!-- Nav bar -->
+            <li><a href='index.html'>Home Page</a></li> <!-- Link to the homepage -->
+            <li><a href='current_members.html'>Current Members</a></li> <!-- Link to the current members page -->
+            <li class="active"><a href='event_calendar.html'>Event Calendar</a></li>
+            <!-- Link to the event calendar page, active class applied to show it's the current page -->
+            <li><a href='img_gallery.html'>Image Gallery</a></li> <!-- Link to the image gallery page -->
+            <li><a href='contact_us.html'>Contact Us</a></li> <!-- Link to the contact us page -->
+            <li><a href="our_top_picks.html">Our Top Picks</a></li> <!-- Link to the our top picks page -->
         </ul>
+
     </nav>
     <main>
 
         <div>
-            <table>
+            <table class="EventCalandar">
                 <tr>
                     <td></td>
                     <th>Monday</th>
@@ -64,7 +107,7 @@
                     <th><!--Tuesday--> Movie Trivia Night </th>
                     <th><!-- Wednesday--></th>
                     <th><!--Thursday-->Movie-themed Potluck Dinner</th>
-                    <th><!-- Friday --> Movie Marathon Night</th>
+                    <th><!-- Friday --> </th>
                     <th><!--Saturday --></th>
                     <th><!--Sunday--></th>
                 </tr>
@@ -75,7 +118,7 @@
                     <th><!--Tuesday--></th>
                     <th><!-- Wednesday--> Outdoor Movie Screening</th>
                     <th><!--Thursday--> </th>
-                    <th><!-- Friday --> Movie Marathon Night</th>
+                    <th><!-- Friday --> </th>
                     <th><!--Saturday --></th>
                     <th><!--Sunday-->Wrap-up Brunch</th>
                 </tr>
@@ -108,7 +151,7 @@
                     <th><!--Tuesday-->Member Showcase Night</th>
                     <th><!-- Wednesday--></th>
                     <th><!--Thursday-->Movie-themed Game Night</th>
-                    <th><!-- Friday --> Movie Marathon Night</th>
+                    <th><!-- Friday --> </th>
                     <th><!--Saturday --></th>
                     <th><!--Sunday-->Wrap-up Brunch</th>
                 </tr>
@@ -130,7 +173,7 @@
                     <th><!--Tuesday--></th>
                     <th><!-- Wednesday--> Movie Bingo Night</th>
                     <th><!--Thursday--></th>
-                    <th><!-- Friday --> Movie Marathon Night</th>
+                    <th><!-- Friday --> </th>
                     <th><!--Saturday --></th>
                     <th><!--Sunday--></th>
                 </tr>
@@ -141,7 +184,7 @@
                     <th><!--Tuesday--></th>
                     <th><!-- Wednesday-->Volunteer at Local Theater</th>
                     <th><!--Thursday--></th>
-                    <th><!-- Friday --> Movie Marathon Night</th>
+                    <th><!-- Friday --> </th>
                     <th><!--Saturday --></th>
                     <th><!--Sunday-->Wrap-up Brunch</th>
                 </tr>
@@ -152,7 +195,7 @@
                     <th><!--Tuesday--></th>
                     <th><!-- Wednesday-->Outdoor Movie Screening </th>
                     <th><!--Thursday-->Film Analysis Discussion</th>
-                    <th><!-- Friday -->Movie Marathon Night</th>
+                    <th><!-- Friday --></th>
                     <th><!--Saturday --></th>
                     <th><!--Sunday-->Wrap-up Brunch</th>
                 </tr>
@@ -174,7 +217,7 @@
                     <th><!--Tuesday--> Movie Trivia Night</th>
                     <th><!-- Wednesday--></th>
                     <th><!--Thursday--></th>
-                    <th><!-- Friday --> Movie Marathon Night</th>
+                    <th><!-- Friday --> </th>
                     <th><!--Saturday --></th>
                     <th><!--Sunday--></th>
                 </tr>
@@ -184,18 +227,54 @@
             </table>
         </div>
 
+
+        <div class="ReccomendEvents">
+            <h3 class = RecEvent>Want to recommend an event? Tell us below!</h3>
+
+            <!-- Form with name property set to "events" -->
+            <form name="events">
+
+                <!-- Text input field with property name="event_title" -->
+                <label for="event_title">Event Title:</label>
+                <input type="text" id="event_title" name="event_title" placeholder="Enter event title" >
+
+                <!-- Date input field with property name="event_date" -->
+                <label for="event_date">Event Date:</label>
+                <input type="date" id="event_date" name="event_date" >
+
+                <!-- Button with property onclick="" and the words "Submit Event" displayed -->
+                <button type="submit" onclick="">Submit Event</button>
+
+            </form>
+            <script src="scripts/eventCalanderCheck.js"></script>
+        </div>
+
+
     </main>
 
 
 
     <aside>
-        
+        <div class="article">
+            <img class="articleImg" src="images/newspaper.jpg" alt="newspaper">
+        </div>
+        <div class="aContent">
+            <h3>Controversial Film 'Society Unveiled' Sparks Debate Over Dystopian Portrayal of Future Society</h3>
+            <p> Some critics argue that the film's dystopian vision is too extreme and lacks nuance, while others
+                contend that it raises important questions about the potential pitfalls of blindly pursuing a utopian
+                society at any cost. Regardless of one's opinion, the film has undeniably sparked a lively and
+                much-needed debate about the
+                kind of future society we want to build.</p>
+
+        </div>
+
+
     </aside>
 
 
 
     <footer>
-        <p> Copyright Pelumi Adebayo</p>
+        <p> Copyright Pelumi Adebayo, Year 1 </p>
     </footer>
 
 
