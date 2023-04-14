@@ -25,42 +25,21 @@
     <img src="images/playLogo.png" alt="Logo">
         
 
-        <form class="LogIn">
-
-            <p id="login"></p>
-            <fieldset id="loginFields">
-                <!--Username-->
-                <input type="text" id="user-email" placeholder="email">
-                <!--Password-->
-
-                <input type="password" id="password" placeholder="password">
-                <!--submit button-->
-                <button type="button" onclick="alert('You have been logged in')">Login</button>
-
-                <script>
-                    var counter = 2;
-
-                    function login() {
-                        if (counter % 2 == 0) {
-                            alert('You have been logged in');
-
-                        }
-                        else {
-                            alert('you have been logged out')
-                        }
-                        counter += 1;
-                    }
-
-
-
-                </script>
-
-
-
-            </fieldset>
-
-        </form>
-        <p id="login_confirm"></p>
+    <form class="LogIn">
+        <p id="login"></p>
+        <fieldset id="loginFields">
+            <!--Username-->
+            <input type="text" id="user-email" placeholder="email" required>
+            <!--Password-->
+            <input type="password" id="password" placeholder="password" required>
+            <!--submit button-->
+            <button type="button" onclick="login()">Login</button>
+            <!--logout button-->
+            <button type="button" onclick="logout()">Logout</button>
+    
+            <script src="scripts/loginScript.js"></script>
+        </fieldset>
+    </form>
 </header>
 
 <nav>
@@ -71,6 +50,8 @@
         <li class="active"><a href='img_gallery.html'>Image Gallery</a></li> <!-- Link to the image gallery page, active class applied to show it's the current page -->
         <li><a href='contact_us.html'>Contact Us</a></li> <!-- Link to the contact us page -->
         <li><a href="our_top_picks.html">Our Top Picks</a></li> <!-- Link to the our top picks page -->
+        <li><a href="movie_resources.html">Movie Resources</a></li> <!--Link to movie resources page-->
+        <li><a href="our_current_movies.html">Our current movies</a></li> <!--Link to Our current movies-->
     </ul>
 </nav>
 
