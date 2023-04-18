@@ -34,10 +34,10 @@
                 <input type="text" id="user-email" placeholder="email" required>
                 <!--Password-->
                 <input type="password" id="password" placeholder="password" required>
-                <!--submit button-->
-                <button type="button" onclick="login()">Login</button>
+                <!--login button-->
+                <button class ="login-buttons"type="button" onclick="login()">Login</button>
                 <!--logout button-->
-                <button type="button" onclick="logout()">Logout</button>
+                <button class ="login-buttons"type="button" onclick="logout()">Logout</button>
         
                 <script src="scripts/loginScript.js"></script>
             </fieldset>
@@ -78,7 +78,7 @@
                     <br>
         
                     <!-- Email entry box-->
-                    <input type="email" id="email" placeholder="Enter Email Address" > 
+                    <input type="text" id="emails" placeholder="Enter Email Address" > 
                     <br>
                     <!-- Member buttons-->
                     <label for="member">Member</label>
@@ -97,7 +97,7 @@
                     <input type="file" id="fileinput" >
                     <br>
                     <!-- Submit Button-->
-                    <button type="button" onclick='document.getElementById("form_outcome").innerHTML="Form has been sent successfully!"'>Submit</button>
+                    <button class="contactus-button"type="button" onclick='document.getElementById("form_outcome").innerHTML="Form has been sent successfully!"'>Submit</button>
                 </fieldset>
             </div>
         </form>
