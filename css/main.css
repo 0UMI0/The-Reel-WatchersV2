@@ -1,507 +1,586 @@
-    /* Header styling */
-    header {
-        background-color: #379683;
-        border-top-left-radius: 1px;
-        border-top-right-radius: 1px;
-        padding: 10px;
-        overflow: auto;
-
-    }
-
-    header img {
-        height: 50px;
-        width: 50px;
-        float: left;
-        margin-left: 1px;
-        overflow: auto;
-
-    }
-
-    #title {
-        display: inline;
-    }
-
-    /* Body styling */
-    body {
-        background-color: #5CDB95;
-        color: #379683;
-        font-size: medium;
-    }
-
-    /* Main section styling */
-    main {
-        background-color: #379683;
-        border-bottom: 10px solid;
-        padding: 10px;
-        min-height: 100vh;
-        overflow: auto;
-    }
-
-    /* Footer styling */
-    footer {
-        border-radius: 10px;
-        background-color: #379683;
-        font-style: oblique;
-        padding: 10px;
-        margin-top: 20px;
-    }
-
-    /* Aside section styling */
-    aside {
-        margin-top: 10px;
-        background-color: #05386B;
-        border-radius: 10px;
-        overflow: auto;
-    }
-
-    /* Typography */
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    p {
-        color: #000000;
-        font-family: monospace;
-    }
-
-    .title {
-        font-size: 60px;
-
-    }
-
-    h3 {
-        font-size: x-large;
-    }
-
-    /*Introduction paragraph on home page*/
-    .introduction {
-        margin: 10px;
-        font-size: large;
-    }
-
-    /* Event Calandar table styling */
-
-    .EventCalandar table td,
-    .EventCalandar table th,
-    .EventCalandar table tr {
-        font-family: monospace;
-        border-collapse: collapse;
-        border: 1px solid black;
-        padding: 10px;
-
-    }
-
-    .EventCalandar table {
-        border-collapse: collapse;
-        width: 100%;
-        font-size: 10pt;
-
-
-    }
-
-    .EventCalandar th {
-        text-align: center;
-        vertical-align: middle;
-        font-size: 10pt;
-        padding: 10px;
-    }
-
-    .EventCalandar td {
-        text-align: center;
-        vertical-align: middle;
-        font-size: 10pt;
-        padding: 10px;
-    }
-
-
-    .EventCalandar th,
-    .EventCalandar td,
-    .EventCalandar tr {
-        width: 150px;
-        border: 2px solid;
-        margin: 10px;
-        padding: 10px;
-    }
-
-    .EventCalandar tr,
-    .EventCalandar td:nth-child(even) {
-        background-color: #05386B;
-    }
-
-    .EventCalandar th:hover {
-        background-color: #000000;
-
-    }
-
-    .EventCalandar tr:hover {
-        background-color: #000000;
-
-
-    }
-
-    .EventCalandar th,
-    .EventCalandar tr {
-        background-color: #05386B;
-        color: #EDF5E1;
-        border: 2px solid;
-    }
-
-
-    /* Nav elements */
-    nav ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #5CDB95;
-    }
-
-    nav li {
-        border: 2px solid;
-        border-color: #05386B;
-        background-color: #5CDB95;
-        list-style-type: none;
-        width: 11.11%;
-        padding: 0;
-        float: left;
-    }
-
-    nav li a {
-        display: block;
-        color: #000000;
-        padding: 10px;
-        text-decoration: none;
-        text-align: center;
-        font-size: large;
-    }
-
-    nav li:hover,
-    .active {
-        background-color: #379683;
-
-    }
-
-
-
-    /* Contact us form elements */
-
-
-    .ContactUs {
-        font-family: monospace;
-        color: #000000;
-        padding: 15px;
-        float: left;
-    }
-
-    .ContactUs p,
-    h3 {
-        margin-left: 25px;
-    }
-
-    .ContactUs input {
-        margin: 5px;
-        padding: 0px;
-        border: 1px solid #000;
-        border-radius: 5px;
-        max-width: 750px;
-        font-size: medium;
-        font-family: monospace;
-
-    }
-
-
-    .contactUsField {
-        margin: 20px;
-        padding: 20px;
-        border: 1px solid #000;
-        border-radius: 5px;
-        max-width: 750px;
-        font-size: medium;
-        font-family: monospace;
-
-    }
-
-
-
-
-    /* Login Element */
-    .LogIn {
-        float: right;
-        background-color: #379683;
-        color: white;
-        padding: 10px 20px;
-        text-align: center;
-        text-decoration: none;
-        font-size: 16px;
-        border-radius: 5px;
-        border: none;
-        cursor: pointer;
-        margin-top: 10px;
-    }
-
-    .LogIn:hover {
-        background-color: #2d7e65;
-    }
-
-
-
-
-
-    /* home  carousel styling */
-    #home-carousel {
-        height: 1000px;
-        width: 1500px;
-        margin: auto;
-        display: block;
-        border: 4px solid #000000;
-
-    }
-
-    #home-carousel .carousel-item {
-        height: 100%;
-    }
-
-    #home-carousel .carousel-item img {
-        height: 100%;
-        object-fit: cover;
-    }
-
-    /* Top picks carousel styling */
-
-
-
-    #topPicks-carousel #top-picks-title {
-        text-align: center;
-    }
-
-    #topPicks-carousel .carousel-inner {
-        height: 1000px;
-    }
-
-    #topPicks-carousel .carousel-item video {
-        height: 100%;
-        object-fit: contain;
-    }
-
-    #topPicks-carousel .carousel-caption {
-        background-color: #EDF5E1;
-        opacity: 0.7;
-        padding: 10px;
-        border-radius: 5px;
-    }
-
-    #topPicks-carousel .carousel-caption h5 {
-        color: #000000;
-        font-size: 24px;
-        font-weight: bold;
-    }
-
-
-
-
-
-
-    /* img gallery elements */
-    .gallery-img {
-        height: 350px;
-        width: 350px;
-        margin: 10px;
-    }
-
-    .gallery-img-bottom {
-        text-align: center;
-        margin: 10px;
-    }
-
-
-    /* Add border and increase size of selected image */
-    .gallery-img.highlight {
-        border: 2px solid purple;
-        transform: scale(1.1);
-    }
-
-    /* Add hover effect to non-selected images */
-    .gallery-img:not(.highlight):hover:not(.blur) {
-        transform: scale(1.1);
-    }
-
-    /* Add blur effect to non-selected images */
-    .gallery-img.blur {
-        filter: blur(5px);
-    }
-
-
-
-
-
-    /* Current members gallery */
-    .CMgallery-img {
-        width: 350px;
-        height: 350px;
-        object-fit: fill;
-    }
-
-    #CMimg-gallery {
-        padding: 10px;
-        margin: 0px 0px 15px 15px;
-
-
-
-    }
-
-    .cmGallery-Head,
-    .cmGallery-Bottom {
-        text-align: justify;
-        margin: 25px;
-    }
-
-    /* Style for selected image CM GALLERY */
-
-    /* Add border and increase size of selected image */
-    .CMgallery-img.highlight {
-        border: 2px solid purple;
-        transform: scale(1.1);
-    }
-
-    /* Add hover effect to non-selected images */
-    .CMgallery-img:not(.highlight):hover:not(.blur) {
-        transform: scale(1.1);
-
-    }
-
-    /* Add blur effect to non-selected images */
-    .CMgallery-img.blur {
-        filter: blur(5px);
-    }
-
-
-
-
-
-
-    /* Contact us twitter embed */
-    .twitter-tweet {
-        margin: 15px;
-        float: right;
-        overflow: auto;
-
-    }
-
-
-    /*Latest news thing*/
-
-    .articleImg {
-        width: 80px;
-        height: 80px;
-        float: left;
-        margin: 5px;
-    }
-
-    #aContent {
-        text-align: right;
-    }
-
-
-
-    /*event calandar form*/
-
-    .ReccomendEvents {
-        margin-top: 50px;
-        padding: 20px;
-        border: 1px solid #000;
-        border-radius: 10px;
-        max-width: 750px;
-        float: left;
-        color: #000000;
-        font-family: monospace;
-    }
-
-    /*-------------------------------------*/
-
-    /* top picks timeline*/
-
-
-
-    .timeline-header {
-        font-size: 24px;
-        font-weight: bold;
-        margin-bottom: 20px;
-        text-align: center;
-    }
-
-
-    .twitter-timeline {
-        border: 1px solid black;
-        border-top: none;
-    }
-
-    .twitter-timeline:first-child {
-        border: 1px solid black;
-    }
-
-
-
-
-
-    /* movie resources elements */
-
-    .button-container {
-        border: 3px solid black;
-        border-radius: 10px;
-        width: 300px;
-        height: 300px;
-        align-items: center;
-        margin: 10px;
-        padding: 5px;
-
-
-
-    }
-
-    #podcast-button,
-    .offcanvas-title {
-
-        font-weight: bold;
-        padding: 10px;
-    }
-
-
-    #podcast-button,
-    .offcanvas-body {
-
-        margin: 10px;
-        max-width: fit-content;
-        max-height: 260px;
-
-    }
-
-    .offcanvas {
-        background-color: #2d7e65;
-    }
-
-    .podcast-button,
-    .streaming-sites {
-        margin: 8px;
-        padding: 10px;
-        width: fit-content;
-        height: fit-content;
-        max-width: 100px;
-        max-height: 100px;
-        display: inline-flex;
-    }
-
-    .podcast-titles {
-        font-weight: bold;
-    }
-
-    .bg-color {
-        background-color: #000000;
-    }
-
-    .dropdown-menu.show {
-        display: block;
-        background-color: #5CDB95;
-
-    }
+/* Header styling */
+header {
+    background-color: #379683;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+    padding: 10px;
+    overflow: auto;
+}
+
+/* Logo in header */
+header img {
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-left: 1px;
+    overflow: auto;
+}
+
+/* Title in header */
+#title {
+    display: inline;
+}
+
+/* Body styling */
+body {
+    background-color: #5CDB95;
+    color: #379683;
+    font-size: medium;
+}
+
+/* Main section styling */
+main {
+    background-color: #379683;
+    border-bottom: 10px solid;
+    padding: 10px;
+    min-height: 100vh;
+    overflow: auto;
+}
+
+/* Footer styling */
+footer {
+    border-radius: 10px;
+    background-color: #379683;
+    font-style: oblique;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Aside section styling */
+aside {
+    margin-top: 10px;
+    background-color: #05386B;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    color: #000000;
+    font-family: monospace;
+}
+
+/* Title on home page */
+.title {
+    font-size: 60px;
+}
+
+/* Subheadings */
+h3 {
+    font-size: x-large;
+}
+
+/* Introduction paragraph on home page */
+.introduction {
+    margin: 10px;
+    font-size: large;
+}
+
+/* Event Calendar table styling */
+.EventCalandar table td,
+.EventCalandar table th,
+.EventCalandar table tr {
+    font-family: monospace;
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.EventCalandar table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 10pt;
+}
+
+.EventCalandar th {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 10pt;
+    padding: 10px;
+}
+
+.EventCalandar td {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 10pt;
+    padding: 10px;
+}
+
+/* Styling for individual table cells */
+.EventCalandar th,
+.EventCalandar td,
+.EventCalandar tr {
+    width: 150px;
+    border: 2px solid;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Striped rows for the table */
+.EventCalandar tr,
+.EventCalandar td:nth-child(even) {
+    background-color: #EDF5E1;
+}
+
+/* Hover effects for table headers and rows */
+.EventCalandar th:hover {
+    background-color: #EDF5E1;
+    color: #000000;
+}
+
+.EventCalandar tr:hover {
+    background-color: #000000;
+
+}
+
+/* Styling for table headers and rows */
+.EventCalandar th,
+.EventCalandar tr {
+    background-color: #05386B;
+    color: #EDF5E1;
+    border: 2px solid;
+}
+
+
+
+
+/* Nav elements */
+nav.sticky-top {
+    /* Make the navigation bar stick to the top of the viewport */
+    position: sticky;
+    top: 0;
+    /* Ensure the navigation bar appears above other elements on the page */
+    z-index: 1;
+}
+
+/* Style the unordered list of navigation items */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* Set the background color of the navigation bar */
+    background-color: #5CDB95;
+}
+
+/* Style each navigation item */
+nav li {
+    /* Add a border to each navigation item */
+    border: 2px solid;
+    border-color: #000000;
+    /* Set the background color of each navigation item */
+    background-color: #5CDB95;
+    list-style-type: none;
+    /* Set the width of each navigation item */
+    width: 12.50%;
+    /* Add padding to each navigation item */
+    padding: 5px;
+    /* Make each navigation item float to the left */
+    float: left;
+}
+
+/* Style each link within a navigation item */
+nav li a {
+    /* Display each link as a block-level element */
+    display: block;
+    /* Set the text color of each link */
+    color: #000000;
+    /* Add padding to each link */
+    padding: 10px;
+    /* Remove underlines from each link */
+    text-decoration: none;
+    /* Center the text within each link */
+    text-align: center;
+    /* Set the font size of each link */
+    font-size: large;
+}
+
+/* Style the background color of each navigation item when hovered over or active */
+nav li:hover,
+.active {
+    background-color: #05386B;
+}
+
+/* Contact us form elements */
+.ContactUs {
+    /* Set the font family and text color for the contact us section */
+    font-family: monospace;
+    color: #000000;
+    /* Add padding to the contact us section */
+    padding: 15px;
+    /* Make the contact us section float to the left */
+    float: left;
+}
+
+/* Style the paragraph and heading tags within the contact us section */
+.ContactUs p,
+h3 {
+    margin-left: 25px;
+}
+
+/* Style the input fields within the contact us section */
+.ContactUs input {
+    /* Add margins and padding to the input fields */
+    margin: 5px;
+    padding: 0px;
+    /* Add a border and border radius to the input fields */
+    border: 1px solid #000;
+    border-radius: 5px;
+    /* Set the maximum width of the input fields */
+    max-width: 750px;
+    /* Set the font size and family of the input fields */
+    font-size: medium;
+    font-family: monospace;
+}
+
+/* Style the contact us form field */
+.contactUsField {
+    /* Add margins and padding to the contact us form field */
+    margin: 20px;
+    padding: 20px;
+    /* Add a border and border radius to the contact us form field */
+    border: 1px solid #000;
+    border-radius: 5px;
+    /* Set the maximum width of the contact us form field */
+    max-width: 750px;
+    /* Set the font size and family of the contact us form field */
+    font-size: medium;
+    font-family: monospace;
+}
+
+/* On hover of the Login button, change the background color to a darker shade of green */
+.LogIn:hover {
+    background-color: #2d7e65;
+}
+
+
+
+
+
+
+
+
+/* home carousel styling */
+#home-carousel {
+    height: 1000px;
+    width: 1500px;
+    margin: auto;
+    display: block;
+    border: 4px solid #000000;
+}
+
+#home-carousel .carousel-item {
+    height: 100%;
+}
+
+#home-carousel .carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Top picks carousel styling */
+#top-picks-carousel #top-picks-title {
+    text-align: center;
+}
+
+#top-picks-carousel .carousel-inner {
+    height: 1000px;
+}
+
+#top-picks-carousel .carousel-control-next,
+.carousel-control-prev {
+    height: 26%;
+    top: 33%;
+    width: 86px;
+
+}
+
+
+#top-picks-carousel .carousel-item video {
+    height: 100%;
+    object-fit: contain;
+
+}
+
+#top-picks-carousel .carousel-caption {
+    background-color: #EDF5E1;
+    opacity: 0.7;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#top-picks-carousel .carousel-caption h5 {
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#top-picks-carousel .carousel-caption {
+    bottom: -5.7rem;
+}
+
+
+
+/* img gallery elements */
+.gallery-img {
+    height: 350px;
+    width: 350px;
+    margin: 10px;
+}
+
+.gallery-img-bottom {
+    text-align: center;
+    margin: 10px;
+}
+
+/* Add border and increase size of selected image */
+.gallery-img.highlight {
+    border: 2px solid purple;
+    transform: scale(1.1);
+}
+
+/* Add hover effect to non-selected images */
+.gallery-img:not(.highlight):hover:not(.blur) {
+    transform: scale(1.1);
+}
+
+/* Add blur effect to non-selected images */
+.gallery-img.blur {
+    filter: blur(5px);
+}
+
+/* Current members gallery */
+.CMgallery-img {
+    width: 350px;
+    height: 350px;
+    object-fit: fill;
+}
+
+#CMimg-gallery {
+    padding: 10px;
+    margin: 0px 0px 15px 15px;
+}
+
+.cmGallery-Head,
+.cmGallery-Bottom {
+    text-align: justify;
+    margin: 25px;
+}
+
+/* Style for selected image CM GALLERY */
+
+/* Add border and increase size of selected image */
+.CMgallery-img.highlight {
+    border: 2px solid purple;
+    transform: scale(1.1);
+}
+
+/* Add hover effect to non-selected images */
+.CMgallery-img:not(.highlight):hover:not(.blur) {
+    transform: scale(1.1);
+}
+
+/* Add blur effect to non-selected images */
+.CMgallery-img.blur {
+    filter: blur(5px);
+}
+
+
+
+
+
+
+
+/* Contact us twitter embed */
+.twitter-tweet {
+    margin: 15px;
+    float: right;
+    overflow: auto;
+}
+
+/* Latest news thing */
+.articleImg {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin: 5px;
+}
+
+#aContent {
+    text-align: right;
+}
+
+/* Event calendar form */
+.ReccomendEvents {
+    margin-top: 50px;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    max-width: 750px;
+    float: left;
+    color: #000000;
+    font-family: monospace;
+}
+
+/* Top picks timeline */
+.timeline-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.twitter-timeline {
+    border: 1px solid black;
+    border-top: none;
+}
+
+.twitter-timeline:first-child {
+    border: 1px solid black;
+}
+
+/* Movie resources elements */
+.button-container {
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 300px;
+    height: fit-content;
+    align-items: center;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+}
+
+
+
+/* Offcanvas podcast */
+#offcanvas-podcast .offcanvas-title {
+    font-weight: bold;
+    padding: 10px;
+}
+
+#offcanvas-podcast .offcanvas-body {
+    margin: 10px;
+    max-width: fit-content;
+    max-height: 260px;
+}
+
+.offcanvas {
+    background-color: #2d7e65;
+}
+
+/* off canvas button */
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #05386B;
+    --bs-btn-border-color: #05386B;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #0b5ed7;
+    --bs-btn-hover-border-color: #0a58ca;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0a58ca;
+    --bs-btn-active-border-color: #0a53be;
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #05386B;
+    --bs-btn-disabled-border-color: #05386B;
+}
+/* Podcast button and streaming sites */
+.podcast-button,
+.streaming-sites {
+    padding: 5px;
+    width: fit-content;
+    height: fit-content;
+    max-width: 100px;
+    max-height: 100px;
+    display: inline-flex;
+}
+
+/* Podcast titles */
+.podcast-titles {
+    font-weight: bold;
+}
+
+/* Background color */
+.bg-color {
+    background-color: #05386B;
+    border-color: #000;
+}
+.btn-secondary{
+    --bs-btn-hover-bg:  #EDF5E1;
+    --bs-btn-hover-color: #000;
+
+}
+
+/* Dropdown menu */
+.dropdown-menu.show {
+    display: block;
+    background-color: #5CDB95;
+}
+.btn-check:checked + .btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check) + .btn:active {
+    color: #000;
+    background-color: #5CDB95 ;
+    border-color: #000;
+}
+
+
+
+
+/* Critics accordion items */
+.critics-header {
+    text-align: center;
+    font-weight: bold;
+}
+
+.accordion-item .accordion-header {
+    background-color: #f2f2f2;
+    border: 1px solid #2d7e65;
+    padding: 10px;
+}
+
+.critics-header:first-child {
+    border-top: solid 3px #000;
+}
+
+/* all accordians */
+.accordion-button:not(.collapsed){
+    color: #EDF5E1;
+}
+.accordion-item .accordion-header {
+    background-color: #2d7e65;
+    border: 1px solid #000;
+    padding: 10px;
+}
+.accordion-body{
+    background-color: #05386B;
+}
+
+.accordion-flush .accordion-item .accordion-button,
+.accordion-flush .accordion-item .accordion-button.collapsed {
+    border-radius: 0;
+    background-color: #2d7e65;
+}
+
+
+
+
+
+
+
+/* current movie element*/
+.current-movie-header {
+    text-align: center;
+    border-bottom: #000 2px solid;
+    border-top: #000 2px solid;
+    ;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Current Movie Accordion */

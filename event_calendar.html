@@ -36,27 +36,27 @@
                 <button type="button" onclick="login()">Login</button>
                 <!--logout button-->
                 <button type="button" onclick="logout()">Logout</button>
-        
+
                 <script src="scripts/loginScript.js"></script>
             </fieldset>
         </form>
     </header>
 
 
-    <nav>
-        <ul> <!-- Nav bar -->
-            <li><a href='index.html'>Home Page</a></li> <!-- Link to the homepage -->
-            <li><a href='current_members.html'>Current Members</a></li> <!-- Link to the current members page -->
-            <li class="active"><a href='event_calendar.html'>Event Calendar</a></li>
-            <!-- Link to the event calendar page, active class applied to show it's the current page -->
-            <li><a href='img_gallery.html'>Image Gallery</a></li> <!-- Link to the image gallery page -->
-            <li><a href='contact_us.html'>Contact Us</a></li> <!-- Link to the contact us page -->
-            <li><a href="our_top_picks.html">Our Top Picks</a></li> <!-- Link to the our top picks page -->
-            <li><a href="movie_resources.html">Movie Resources</a></li> <!--Link to movie resources page-->
-            <li><a href="our_current_movies.html">Our current movies</a></li> <!--Link to Our current movies-->
+    <nav class="sticky-top">
+        <ul>
+          <li><a href='index.html'>Home Page</a></li>
+          <li><a href='current_members.html'>Current Members</a></li>
+          <li class="active"><a href='event_calendar.html'>Event Calendar</a></li>
+          <li><a href='img_gallery.html'>Image Gallery</a></li>
+          <li><a href='contact_us.html'>Contact Us</a></li>
+          <li><a href="our_top_picks.html">Our Top Picks</a></li>
+          <li><a href="movie_resources.html">Movie Resources</a></li>
+          <li><a href="our_current_movies.html">Our current movies</a></li>
         </ul>
-
-    </nav>
+      </nav>
+      
+      
     <main>
 
         <div>
@@ -210,18 +210,18 @@
 
 
         <div class="ReccomendEvents">
-            <h3 class = RecEvent>Want to recommend an event? Tell us below!</h3>
+            <h3 class=RecEvent>Want to recommend an event? Tell us below!</h3>
 
             <!-- Form with name property set to "events" -->
             <form name="events">
 
                 <!-- Text input field with property name="event_title" -->
                 <label for="event_title">Event Title:</label>
-                <input type="text" id="event_title" name="event_title" placeholder="Enter event title" >
+                <input type="text" id="event_title" name="event_title" placeholder="Enter event title">
 
                 <!-- Date input field with property name="event_date" -->
                 <label for="event_date">Event Date:</label>
-                <input type="date" id="event_date" name="event_date" >
+                <input type="date" id="event_date" name="event_date">
 
                 <!-- Button with property onclick="" and the words "Submit Event" displayed -->
                 <button type="submit" onclick="">Submit Event</button>

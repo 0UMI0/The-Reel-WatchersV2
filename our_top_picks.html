@@ -46,7 +46,7 @@
 
 
 
-    <nav>
+    <nav class="sticky-top">
         <ul> <!--Nav bar -->
             <li><a href='index.html'>Home Page</a></li> <!-- Link to the home page -->
             <li><a href='current_members.html'>Current Members</a></li> <!-- Link to the current members page -->
@@ -64,13 +64,13 @@
 
 
 
-        <div id="topPicks-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div id="top-picks-carousel" class="carousel slide" data-bs-pause="hover">
             <h1 id="top-picks-title">These are our top picks right now!</h1>
             <!-- Wrapper -->
             <div class="carousel-inner">
-
+        
                 <!-- Item 1 -->
-                <div class="carousel-item active">
+                <div class="carousel-item active" data-bs-interval="10000">
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" width="1903" height="838"
                             src="https://www.youtube.com/embed/32YM20mNxIM" title="Dawn of the Seven | Official Trailer"
@@ -83,9 +83,9 @@
                         <p>An exciting trailer of the seven brought to you by vought international!</p>
                     </div>
                 </div>
-
+        
                 <!-- Item 2 -->
-                <div class="carousel-item">
+                <div class="carousel-item" data-bs-interval="10000">
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" width="1904" height="838"
                             src="https://www.youtube.com/embed/f_Pcu6wTzoA" title="Spooder-Man Movie Trailer"
@@ -98,9 +98,9 @@
                         <p>A funny paraody of spiderman featuring Spooderman.</p>
                     </div>
                 </div>
-
+        
                 <!-- Item 3 -->
-                <div class="carousel-item">
+                <div class="carousel-item" data-bs-interval="10000">
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" width="1904" height="838"
                             src="https://www.youtube.com/embed/uKYV2qjYIS0"
@@ -113,24 +113,24 @@
                         <p>A hilarious parody of Spiderman featuring multiple Spoodermen.</p>
                     </div>
                 </div>
-
+        
             </div>
 
             <!-- Indicators -->
             <ol class="carousel-indicators">
-                <li data-bs-target="#topPicks-carousel" data-bs-slide-to="0" class="active"></li>
-                <li data-bs-target="#topPicks-carousel" data-bs-slide-to="1"></li>
-                <li data-bs-target="#topPicks-carousel" data-bs-slide-to="2"></li>
+                <li data-bs-target="#top-picks-carousel" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#top-picks-carousel" data-bs-slide-to="1"></li>
+                <li data-bs-target="#top-picks-carousel" data-bs-slide-to="2"></li>
             </ol>
 
             <!-- Buttons -->
-            <button class="carousel-control-prev" data-bs-target="#topPicks-carousel" type="button"
+            <button class="carousel-control-prev" data-bs-target="#top-picks-carousel" type="button"
                 data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only"></span>
             </button>
 
-            <button class="carousel-control-next" data-bs-target="#topPicks-carousel" type="button"
+            <button class="carousel-control-next" data-bs-target="#top-picks-carousel" type="button"
                 data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only"></span>

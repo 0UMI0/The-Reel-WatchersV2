@@ -46,7 +46,7 @@
 
 
 
-    <nav>
+    <nav class="sticky-top">
         <ul> <!--Nav bar -->
             <li><a href='index.html'>Home Page</a></li> <!-- Link to the home page -->
             <li><a href='current_members.html'>Current Members</a></li> <!-- Link to the current members page -->
@@ -61,18 +61,17 @@
     </nav>
 
     <main>
-        
-        <h1> Some Movie resources </h1>
-        <h4>Sites!</h4>
-        <div class="button-container">
-            <div class="podcast-button">
 
+        <h1> Our favorites: </h1>
+
+        <div class="button-container">
+            <h4>Sites:</h4>
+            <div class="podcast-button">
                 <!--Podcasts-->
                 <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Podcasts!</button>
-
+                    data-bs-target="#offcanvas-podcast" aria-controls="offcanvas-podcast">Podcasts!</button>
                 <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
-                    id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                    id="offcanvas-podcast" aria-labelledby="offcanvasScrollingLabel">
                     <div class="offcanvas-header">
                         <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Our favourite podcasts of movies! </h5>
                         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
@@ -96,11 +95,13 @@
                     </div>
                 </div>
             </div>
+
+
             <div class="streaming-sites">
                 <!--Streaming sites -->
                 <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasScrolling2" aria-controls="offcanvasScrolling2">Streaming
-                    Sites</button>
+                </button>
 
                 <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
                     id="offcanvasScrolling2" aria-labelledby="offcanvasScrollingLabel">
@@ -123,6 +124,7 @@
                                         Video</a></li>
                             </ul>
                             <script src="scripts/dropDownExternalSite.js"></script>
+
                         </div>
 
 
@@ -133,11 +135,78 @@
 
                 </div>
             </div>
-            <div class="critics">
 
-            </div>
         </div>
 
+        <div class="critics">
+            <div class="critics-header">
+                <h3>Our top 3 critics sites</h3>
+            </div>
+
+            <div class="accordion accordion-flush" id="critics-accordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Rotten Tomatoes!
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#critics-accordion">
+                        <div class="accordion-body"><a class="link-success"
+                                href="https://www.rottentomatoes.com/">Rotten Tomatoes</a> is a trusted online
+                            aggregator for movie and TV show
+                            reviews. They provide ratings through the Tomatometer score and produce original content and
+                            events for fans. It's a great resource for those looking for recommendations or wanting to
+                            share their opinions about entertainment.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            IMDb (Internet Movie Database)
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#critics-accordion">
+                        <div class="accordion-body"> <a class="link-success" href="https://www.imdb.com/">IMDb</a> is an
+                            online database that provides information
+                            about films, TV
+                            shows, podcasts, video games, and streaming content. It includes details such as cast and
+                            crew biographies, plot summaries, trivia, ratings, and reviews from critics and fans.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Metacritic
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#critics-accordion">
+                        <div class="accordion-body">
+                            <div>
+                                <a class="link-success" href="https://www.metacritic.com/"> Metacritic</a> is an online
+                                aggregator that
+                                collects reviews of movies, TV shows, music
+                                albums, video games, and previously, books. It calculates an average score based on the
+                                reviews for each product.
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+            <script src="scripts/accordianExternalSite.js"></script>
+        </div>
 
 
     </main>
