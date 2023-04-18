@@ -220,6 +220,18 @@ nav li:hover,
 }
 
 /* Contact us form elements */
+.ContactUs input[type="text"], 
+.ContactUs textarea, 
+.ContactUs input[type="file"], 
+.ContactUs input[type="submit"], 
+.ContactUs input[type="radio"] {
+  padding: 5px 5px;
+  margin: 5px 5px;
+  display: inline-block;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
 .ContactUs {
     /* Set the font family and text color for the contact us section */
     font-family: monospace;

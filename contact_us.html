@@ -35,14 +35,14 @@
                 <!--Password-->
                 <input type="password" id="password" placeholder="password" required>
                 <!--login button-->
-                <button class ="login-buttons"type="button" onclick="login()">Login</button>
+                <button class="login-buttons" type="button" onclick="login()">Login</button>
                 <!--logout button-->
-                <button class ="login-buttons"type="button" onclick="logout()">Logout</button>
-        
+                <button class="login-buttons" type="button" onclick="logout()">Logout</button>
+
                 <script src="scripts/loginScript.js"></script>
             </fieldset>
         </form>
-        
+
 
 
     </header>
@@ -74,34 +74,35 @@
                 <p>Use the form below or contact on social media</p>
                 <fieldset class="contactUsField">
                     <!-- name entry box-->
-                    <input type="text" id="name" placeholder="Enter name here" > 
+                    <input type="text" id="user-name" placeholder="Enter name here">
                     <br>
-        
+
                     <!-- Email entry box-->
-                    <input type="text" id="emails" placeholder="Enter Email Address" > 
+                    <input type="text" id="emails" placeholder="Enter Email Address">
                     <br>
                     <!-- Member buttons-->
                     <label for="member">Member</label>
-                    <input type="radio" id="member" name="Member_check" value="member" >
-        
+                    <input type="radio" id="member" name="Member_check" value="member">
+
                     <label for="non-member">Not a member</label>
-                    <input type="radio" id="non_member" name="Member_check" value="non_member" >
+                    <input type="radio" id="non_member" name="Member_check" value="non_member">
                     <br>
-        
-                     <!--Why are you contacting box-->
-                    <textarea id="comments" placeholder="Additional Comments" ></textarea>
-        
+
+                    <!--Why are you contacting box-->
+                    <textarea id="comments" placeholder="Additional Comments"></textarea>
+
                     <br>
                     <!-- Relevant file attachment-->
                     <label for="fileinput">Attach file</label>
-                    <input type="file" id="fileinput" >
+                    <input type="file" id="fileinput">
                     <br>
                     <!-- Submit Button-->
-                    <button class="contactus-button"type="button" onclick='document.getElementById("form_outcome").innerHTML="Form has been sent successfully!"'>Submit</button>
+                    <input class="contactus-button"type="submit" value="Submit">
                 </fieldset>
             </div>
+            <script src="scripts/contactUsValidation.js"></script>
         </form>
-        
+
 
 
         <!--Twitter-->
