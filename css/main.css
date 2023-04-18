@@ -628,7 +628,10 @@ h3 {
     padding: 10px;
     
 }
-.accordion-body .accordion-text {
+#flush-collapseOne ,#flush-collapseTwo,#flush-collapseThree{
+    color: #EDF5E1;
+}
+.accordion-body.accordion-text {
     color: #EDF5E1;
 
 }
