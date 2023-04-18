@@ -376,7 +376,7 @@ h3 {
 
 /* Add border and increase size of selected image */
 .gallery-img.highlight {
-    border: 2px solid purple;
+    border: 2px solid #000000;
     transform: scale(1.1);
 }
 
@@ -399,20 +399,20 @@ h3 {
 
 #CMimg-gallery {
     padding: 10px;
-    margin: 0px 0px 15px 15px;
+    margin:  15px 15px;
 }
 
 .cmGallery-Head,
 .cmGallery-Bottom {
     text-align: justify;
-    margin: 25px;
+    margin: 10px;
 }
 
 /* Style for selected image CM GALLERY */
 
 /* Add border and increase size of selected image */
 .CMgallery-img.highlight {
-    border: 2px solid purple;
+    border: 2px solid #05386B      ;
     transform: scale(1.1);
 }
 

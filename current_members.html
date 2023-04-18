@@ -18,7 +18,7 @@
 <body>
 
 
-    <header> 
+    <header>
         <nav> <img src="images/playLogo.png" alt="logo"></nav>
         <h1 id="title"> The Reel Reviewers</h1>
 
@@ -32,10 +32,10 @@
                 <!--Password-->
                 <input type="password" id="password" placeholder="password" required>
                 <!--login button-->
-                <button class ="login-buttons"type="button" onclick="login()">Login</button>
+                <button class="login-buttons" type="button" onclick="login()">Login</button>
                 <!--logout button-->
-                <button class ="login-buttons"type="button" onclick="logout()">Logout</button>
-        
+                <button class="login-buttons" type="button" onclick="logout()">Logout</button>
+
                 <script src="scripts/loginScript.js"></script>
             </fieldset>
         </form>
@@ -44,7 +44,8 @@
     <nav class="sticky-top">
         <ul>
             <li><a href='index.html'>Home Page</a></li> <!-- Link to the homepage -->
-            <li class="active"><a href='current_members.html'>Current Members</a></li> <!-- Link to the current members page, active class applied to show it's the current page -->
+            <li class="active"><a href='current_members.html'>Current Members</a></li>
+            <!-- Link to the current members page, active class applied to show it's the current page -->
             <li><a href='event_calendar.html'>Event Calendar</a></li> <!-- Link to the event calendar page -->
             <li><a href='img_gallery.html'>Image Gallery</a></li> <!-- Link to the image gallery page -->
             <li><a href='contact_us.html'>Contact Us</a></li> <!-- Link to the contact us page -->
@@ -53,56 +54,59 @@
             <li><a href="our_current_movies.html">Our current movies</a></li> <!--Link to Our current movies-->
         </ul>
     </nav>
-    
 
-    
+
+
 
 
     <main>
 
 
-        <div id="CMgallery-img" class="container">
-            <div class="row"> <!-- Row one-->
-                <div class="col-sm">
-                    <h5 class="cmGallery-Head">Home Lander</h5>
-                    <img src="images/homeLander.jpg" id="CMgallery-img1" class="CMgallery-img"
-                        alt="homeLander">
-                    <h5 class="cmGallery-Bottom">President</h5>
-                </div>
-                <div class="col-sm">
-                    <h5 class="cmGallery-Head">Black Noir</h5>
-                    <img src="images/blackNoir.jpg" id="CMgallery-img2" class="CMgallery-img"
-                        alt="blackNoir">
-                    <h5 class="cmGallery-Bottom">Vice President</h5>
-                </div>
-                <div class="col-sm">
-                    <h5 class="cmGallery-Head">Queen Maeve</h5>
-                    <img src="images/queenMaeve.jpg" id="CMgallery-img3" class="CMgallery-img"
-                        alt="queenMaeve">
-                    <h5 class="cmGallery-Bottom">Event Organiser</h5>
-                </div>
-                <div class="col-sm"> <!--Row two-->
-                    <h5 class="cmGallery-Head">Starlight</h5>
-                    <img src="images/starLight.jpg" id="CMgallery-img4" class="CMgallery-img"
-                        alt="starLight">
-                    <h5 class="cmGallery-Bottom">Co-Event Organiser</h5>
-                </div>
-            </div>
-            <script src="scripts/CurrentMembersPhoto.js"></script>
-            </div>
+<!--  container with a gallery of images for current memebers -->
+<div id="CMgallery-img" class="container">
 
+    <!-- First row -->
+    <div class="row">
+        <div class="col-sm">
+            <h5 class="cmGallery-Head">Home Lander</h5>
+            <img src="images/homeLander.jpg" id="CMgallery-img1" class="CMgallery-img" alt="homeLander">
+            <h5 class="cmGallery-Bottom">President</h5>
+        </div>
+        <div class="col-sm">
+            <h5 class="cmGallery-Head">Black Noir</h5>
+            <img src="images/blackNoir.jpg" id="CMgallery-img2" class="CMgallery-img" alt="blackNoir">
+            <h5 class="cmGallery-Bottom">Vice President</h5>
+        </div>
+        <div class="col-sm">
+            <h5 class="cmGallery-Head">Queen Maeve</h5>
+            <img src="images/queenMaeve.jpg" id="CMgallery-img3" class="CMgallery-img" alt="queenMaeve">
+            <h5 class="cmGallery-Bottom">Event Organiser</h5>
+        </div>
+    </div>
 
+    <!-- Second row -->
+    <div class="row">
+        <div class="col-sm">
+            <h5 class="cmGallery-Head">Starlight</h5>
+            <img src="images/starLight.jpg" id="CMgallery-img4" class="CMgallery-img" alt="starLight">
+            <h5 class="cmGallery-Bottom">Co-Event Organiser</h5>
+        </div>
+        <div class="col-sm">
+            <h5 class="cmGallery-Head">A-Train</h5>
+            <img src="images/Atrain.webp" id="CMgallery-img5" class="CMgallery-img" alt="A-train">
+            <h5 class="cmGallery-Bottom">Community Manager</h5>
+        </div>
+        <div class="col-sm">
+            <h5 class="cmGallery-Head">Stormfront</h5>
+            <img src="images/stormfront.webp" id="CMgallery-img5" class="CMgallery-img" alt="Stormfront">
+            <h5 class="cmGallery-Bottom">Co-Community Manager</h5>
+        </div>
+    </div>
 
+    <!-- Script  the photo gallery -->
+    <script src="scripts/CurrentMembersPhoto.js"></script>
 
-
-
-
-
-
-
-
-       
-
+</div>
 
 
 
@@ -130,7 +134,7 @@
 
 
     <footer>
-        <p>  Copyright Pelumi Adebayo, Year 1 </p>
+        <p> Copyright Pelumi Adebayo, Year 1 </p>
     </footer>
 
 

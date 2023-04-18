@@ -29,9 +29,9 @@
                 <!--Password-->
                 <input type="password" id="password" placeholder="password" required>
                 <!--login button-->
-                <button class ="login-buttons"type="button" onclick="login()">Login</button>
+                <button class="login-buttons" type="button" onclick="login()">Login</button>
                 <!--logout button-->
-                <button class ="login-buttons"type="button" onclick="logout()">Logout</button>
+                <button class="login-buttons" type="button" onclick="logout()">Logout</button>
 
                 <script src="scripts/loginScript.js"></script>
             </fieldset>
@@ -64,12 +64,16 @@
 
 
 
+        <!-- This is a code block for a carousel of top picks -->
         <div id="top-picks-carousel" class="carousel slide" data-bs-pause="hover">
+
+            <!-- Title -->
             <h1 id="top-picks-title">These are our top picks right now!</h1>
-            <!-- Wrapper -->
+
+            <!-- Wrapper for carousel items -->
             <div class="carousel-inner">
-        
-                <!-- Item 1 -->
+
+                <!-- First item -->
                 <div class="carousel-item active" data-bs-interval="10000">
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" width="1903" height="838"
@@ -83,8 +87,8 @@
                         <p>An exciting trailer of the seven brought to you by vought international!</p>
                     </div>
                 </div>
-        
-                <!-- Item 2 -->
+
+                <!-- Second item -->
                 <div class="carousel-item" data-bs-interval="10000">
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" width="1904" height="838"
@@ -95,11 +99,11 @@
                     </div>
                     <div class="carousel-caption">
                         <h5>Spooder-Man</h5>
-                        <p>A funny paraody of spiderman featuring Spooderman.</p>
+                        <p>A funny parody of Spiderman featuring Spooderman.</p>
                     </div>
                 </div>
-        
-                <!-- Item 3 -->
+
+                <!-- Third item -->
                 <div class="carousel-item" data-bs-interval="10000">
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" width="1904" height="838"
@@ -113,15 +117,8 @@
                         <p>A hilarious parody of Spiderman featuring multiple Spoodermen.</p>
                     </div>
                 </div>
-        
-            </div>
 
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-bs-target="#top-picks-carousel" data-bs-slide-to="0" class="active"></li>
-                <li data-bs-target="#top-picks-carousel" data-bs-slide-to="1"></li>
-                <li data-bs-target="#top-picks-carousel" data-bs-slide-to="2"></li>
-            </ol>
+            </div>
 
             <!-- Buttons -->
             <button class="carousel-control-prev" data-bs-target="#top-picks-carousel" type="button"
@@ -138,39 +135,55 @@
 
         </div>
 
+        <!-- A div container with a class of "timeline-wrapper" -->
         <div class="timeline-wrapper">
 
+            <!-- A header with a class of "timeline-header" and text "Tweets from our favs!" -->
             <h2 class="timeline-header">Tweets from our favs!</h2>
 
+            <!-- A Twitter embed -->
             <div class="twitter-timeline">
-
                 <blockquote class="twitter-tweet">
+
+
                     <p lang="en" dir="ltr">Transparency has always been our core value at Vought. That’s why ahead of
                         our Q1 earnings call, we’ve prepped this summary for all shareholders to enjoy. Here&#39;s CEO
                         Ashley Barrett, who has the board’s full confidence and was just given a new seven-month
                         contract!
                         <a href="https://t.co/UorOazWNcU">pic.twitter.com/UorOazWNcU</a>
-                    </p>&mdash; Vought International (@VoughtIntl)
+                    </p>
+
+                    <!--link to the Twitter account of Vought International with the tweet's date -->
                     <a href="https://twitter.com/VoughtIntl/status/1617952208196145156?ref_src=twsrc%5Etfw">January 24,
                         2023</a>
                 </blockquote>
+
+
                 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
 
+            <!--  Twitter embed -->
             <div class="twitter-timeline">
                 <blockquote class="twitter-tweet">
+
+                    
                     <p lang="en" dir="ltr">Surprise! Filmed in secret before he went on an extended mission overseas,
                         it’s NOIR, REALLY, a festive rom-com guaranteed to bring cheer to the entire family. See it in
                         theaters, or stream with the VTV+ add-on (only $29.99 extra/month, plus tax and additional
                         unspecified fees).
                         <a href="https://t.co/2cI9GTkFVb">pic.twitter.com/2cI9GTkFVb</a>
-                    </p>&mdash; Vought International (@VoughtIntl)
+                    </p>
+
+                    <!--Link to the Twitter account of Vought International with the tweet's date -->
                     <a href="https://twitter.com/VoughtIntl/status/1605261684868014080?ref_src=twsrc%5Etfw">December 20,
                         2022</a>
                 </blockquote>
+
+
                 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
 
+            <!--  Twitter embed -->
             <div class="twitter-timeline">
                 <blockquote class="twitter-tweet">
                     <p lang="en" dir="ltr">After committing a plethora of crimes against Vought, Stan Edgar has struck
@@ -179,6 +192,8 @@
                         great on you, Stan!
                         <a href="https://t.co/paP5oVx6lC">pic.twitter.com/paP5oVx6lC</a>
                     </p>&mdash; Vought International (@VoughtIntl)
+
+                        <!--Link to the Twitter account of Vought International with the tweet's date -->
                     <a href="https://twitter.com/VoughtIntl/status/1620844991898869761?ref_src=twsrc%5Etfw">February 1,
                         2023</a>
                 </blockquote>
