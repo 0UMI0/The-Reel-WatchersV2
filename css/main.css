@@ -64,6 +64,7 @@ h6,
 p {
     color: #000000;
     font-family: monospace;
+    font-weight: bold;
 }
 
 /* Style all input fields */
