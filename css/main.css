@@ -635,6 +635,10 @@ h3 {
     color: #EDF5E1;
 
 }
+#flush-collapseOne > div > div:nth-child(1) > h6.accordion-text,
+#flush-collapseTwo > div > div:nth-child(1) > h6.accordion-text{
+    color: #EDF5E1;
+}
 
 .critics-header:first-child {
     border-top: solid 3px #000;
