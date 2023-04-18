@@ -52,6 +52,10 @@ aside {
     background-color: #05386B;
     border-radius: 10px;
     overflow: auto;
+    
+}
+.aContent > p:nth-child(2){
+    color: #EDF5E1;
 }
 
 /* Typography */
@@ -217,6 +221,7 @@ nav li a {
 nav li:hover,
 .active {
     background-color: #05386B;
+    color: #EDF5E1;
 }
 
 /* Contact us form elements */
@@ -621,6 +626,11 @@ h3 {
     background-color: #f2f2f2;
     border: 1px solid #2d7e65;
     padding: 10px;
+    
+}
+.accordion-body .accordion-text {
+    color: #EDF5E1;
+
 }
 
 .critics-header:first-child {

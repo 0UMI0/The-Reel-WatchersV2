@@ -29,9 +29,9 @@
                 <!--Password-->
                 <input type="password" id="password" placeholder="password" required>
                 <!--login button-->
-                <button class ="login-buttons"type="button" onclick="login()">Login</button>
+                <button class="login-buttons" type="button" onclick="login()">Login</button>
                 <!--logout button-->
-                <button class ="login-buttons"type="button" onclick="logout()">Logout</button>
+                <button class="login-buttons" type="button" onclick="logout()">Logout</button>
 
                 <script src="scripts/loginScript.js"></script>
             </fieldset>
@@ -62,110 +62,124 @@
 
     <main>
 
-<div class="current-movie-wrapper">
-    <div class="current-movie-header">
-        <h3>
-            Our current cinematic selection!
-        </h3>
-        
-    </div>
-        <div class="accordion accordion-flush" id="current-movies-accordion">
+        <div class="current-movie-wrapper">
+            <div class="current-movie-header">
+                <h3>
+                    Our current cinematic selection!
+                </h3>
 
-            <div class="accordion-item"> <!-- First Item-->
-                <h2 class="accordion-header" id="flush-headingOne">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                        The Super Mario Bros. Movie | Official Trailer
-                    </button>
-                </h2>
-                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
-                    data-bs-parent="#current-movies-accordion">
-                    <div class="accordion-body row">
-                        <!-- First Item Content-->
-                        <div class="col-md-6">
-                            <iframe width="100%" height="480" src="https://www.youtube.com/embed/TnGl01FkMMo"
-                                title="The Super Mario Bros. Movie | Official Trailer" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowfullscreen></iframe>
-                            <h6 class="current-body-one-text">
-                                Nintendo and Illumination have teamed up to produce an upcoming animation movie, which
-                                will be set in the thrilling universe of Super Mario Bros. Fans of the popular game will
-                                be thrilled with this highly anticipated cinematic, which promises to bring the beloved
-                                characters to life in entirely new and exciting ways! So get ready to dust off your
-                                overalls, eat some mushrooms, and hop into those warp pipes; the Super Mario Bros movie
-                                is finally on its way!
-                            </h6>
-                        </div>
-                        <div class="col-md-6">
-                            <!-- A Twitter embed -->
-                            <blockquote class="twitter-tweet">
-                                <p lang="en" dir="ltr">&quot;Peaches,&quot; Bowser&#39;s love ballad (sung by Jack
-                                    Black) in The Super Mario Bros. Movie, has officially become a hit song on the
-                                    Billboard Hot 100.<a href="https://t.co/w8ysK5EgUd">https://t.co/w8ysK5EgUd</a> <a
-                                        href="https://t.co/usuWCGyBEw">pic.twitter.com/usuWCGyBEw</a></p>&mdash; IGN
-                                (@IGN) <a
-                                    href="https://twitter.com/IGN/status/1648091740224512002?ref_src=twsrc%5Etfw">April
-                                    17, 2023</a>
-                            </blockquote>
-                            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                        </div>
-                        <div class="col-md-6">
-                            <button class="critic-buttons"
-                                onclick="window.open('https://www.imdb.com/title/tt6718170/?ref_=ext_shr_lnk', '_blank')">Visit
-                                the IBDb page
-                            </button>
-
-                        </div>
-                    </div>
-                </div>
             </div>
+            <div class="accordion accordion-flush" id="current-movies-accordion">
 
-            <div class="accordion-item"> <!-- Second Item-->
-                <h2 class="accordion-header" id="flush-headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                        SPIDER-MAN: INTO THE SPIDER-VERSE - Official Trailer
-                    </button>
-                </h2>
-                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
-                    data-bs-parent="#current-movies-accordion">
-                    <!-- Second Item Content-->
-                    <div class="accordion-body row">
-                        <div class="col-md-6">
-
-                            <h6 class="current-body-two-text">
-                                <iframe width="100%" height="480" src="https://www.youtube.com/embed/shW9i6k8cB0"
-                                    title="SPIDER-MAN: ACROSS THE SPIDER-VERSE - Official Trailer #2 (HD)"
-                                    frameborder="0"
+                <div class="accordion-item"> <!-- First Item-->
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            The Super Mario Bros. Movie | Official Trailer
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#current-movies-accordion">
+                        <div class="accordion-body row">
+                            <!-- First Item Content-->
+                            <div class="col-md-6">
+                                <iframe width="100%" height="480" src="https://www.youtube.com/embed/TnGl01FkMMo"
+                                    title="The Super Mario Bros. Movie | Official Trailer" frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                     allowfullscreen></iframe>
-                                Spider-Man fans rejoice - Miles Morales is back! In the upcoming Spider-Man movie, we'll
-                                get to see Spider-Man take on new and exciting challenges as he attempts to redefine his
-                                place in the world and change his own destiny.
-                            </h6>
+                                <h6 class="current-body-one-text">
+                                    <h6 class="accordion-text">
+                                        Nintendo and Illumination have teamed up to produce an upcoming animation movie,
+                                        which
+                                        will be set in the thrilling universe of Super Mario Bros. Fans of the popular
+                                        game
+                                        will
+                                        be thrilled with this highly anticipated cinematic, which promises to bring the
+                                        beloved
+                                        characters to life in entirely new and exciting ways! So get ready to dust off
+                                        your
+                                        overalls, eat some mushrooms, and hop into those warp pipes; the Super Mario
+                                        Bros
+                                        movie
+                                        is finally on its way!
+                                    </h6>
+                                </h6>
+                            </div>
+                            <div class="col-md-6">
+                                <!-- A Twitter embed -->
+                                <blockquote class="twitter-tweet">
+                                    <p lang="en" dir="ltr">&quot;Peaches,&quot; Bowser&#39;s love ballad (sung by Jack
+                                        Black) in The Super Mario Bros. Movie, has officially become a hit song on the
+                                        Billboard Hot 100.<a href="https://t.co/w8ysK5EgUd">https://t.co/w8ysK5EgUd</a>
+                                        <a href="https://t.co/usuWCGyBEw">pic.twitter.com/usuWCGyBEw</a>
+                                    </p>&mdash; IGN
+                                    (@IGN) <a
+                                        href="https://twitter.com/IGN/status/1648091740224512002?ref_src=twsrc%5Etfw">April
+                                        17, 2023</a>
+                                </blockquote>
+                                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            </div>
+                            <div class="col-md-6">
+                                <button class="critic-buttons"
+                                    onclick="window.open('https://www.imdb.com/title/tt6718170/?ref_=ext_shr_lnk', '_blank')">Visit
+                                    the IBDb page
+                                </button>
+
+                            </div>
                         </div>
-                        <div class="col-md-6">
-                            <!-- A Twitter embed -->
-                            <blockquote class="twitter-tweet">
-                                <p lang="en" dir="ltr">Can&#39;t stop me from watching the <a
-                                        href="https://twitter.com/hashtag/SpiderVerse?src=hash&amp;ref_src=twsrc%5Etfw">#SpiderVerse</a>
-                                    trailer ∞ times. How&#39;s everyone doing one week post drop? <a
-                                        href="https://t.co/CoNAYLwDyH">pic.twitter.com/CoNAYLwDyH</a></p>&mdash;
-                                Spider-Man: Across The Spider-Verse (@SpiderVerse) <a
-                                    href="https://twitter.com/SpiderVerse/status/1645936013397852163?ref_src=twsrc%5Etfw">April
-                                    11, 2023</a>
-                            </blockquote>
-                            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                        </div>
-                        <div class="col-md-6">
-                            <button class="critic-buttons"
-                                onclick="window.open('https://www.imdb.com/title/tt6718170/?ref_=ext_shr_lnk', '_blank')">Visit
-                                the IBDb page
-                            </button>
                     </div>
                 </div>
-            </div>
-        </div>
+
+                <div class="accordion-item"> <!-- Second Item-->
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            SPIDER-MAN: INTO THE SPIDER-VERSE - Official Trailer
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#current-movies-accordion">
+                        <!-- Second Item Content-->
+                        <div class="accordion-body row">
+                            <div class="col-md-6">
+
+                                <h6 class="current-body-two-text">
+                                    <iframe width="100%" height="480" src="https://www.youtube.com/embed/shW9i6k8cB0"
+                                        title="SPIDER-MAN: ACROSS THE SPIDER-VERSE - Official Trailer #2 (HD)"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        allowfullscreen></iframe>
+                                    <h6 class="accordion-text">
+                                        Spider-Man fans rejoice - Miles Morales is back! In the upcoming Spider-Man
+                                        movie, we'll
+                                        get to see Spider-Man take on new and exciting challenges as he attempts to
+                                        redefine his
+                                        place in the world and change his own destiny.
+                                    </h6>
+                                </h6>
+                            </div>
+                            <div class="col-md-6">
+                                <!-- A Twitter embed -->
+                                <blockquote class="twitter-tweet">
+                                    <p lang="en" dir="ltr">Can&#39;t stop me from watching the <a
+                                            href="https://twitter.com/hashtag/SpiderVerse?src=hash&amp;ref_src=twsrc%5Etfw">#SpiderVerse</a>
+                                        trailer ∞ times. How&#39;s everyone doing one week post drop? <a
+                                            href="https://t.co/CoNAYLwDyH">pic.twitter.com/CoNAYLwDyH</a></p>&mdash;
+                                    Spider-Man: Across The Spider-Verse (@SpiderVerse) <a
+                                        href="https://twitter.com/SpiderVerse/status/1645936013397852163?ref_src=twsrc%5Etfw">April
+                                        11, 2023</a>
+                                </blockquote>
+                                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            </div>
+                            <div class="col-md-6">
+                                <button class="critic-buttons"
+                                    onclick="window.open('https://www.imdb.com/title/tt6718170/?ref_=ext_shr_lnk', '_blank')">Visit
+                                    the IBDb page
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
 
 
@@ -197,7 +211,7 @@
     <footer>
         <p> Copyright Pelumi Adebayo, Year 1 </p>
     </footer>
-<!--
+    <!--
     THREAT MODEL
     NO CURRENT THREATS AS NO USER INPUT IS TAKEN
     -EXCLUDING LOGIN BUTTON-
